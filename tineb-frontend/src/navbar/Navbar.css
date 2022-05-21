@@ -1,0 +1,14 @@
+.home-icon{
+    float: left;
+    color: black;
+    font-size: 30px;
+  }
+  .wallet-icon{
+    float: right;
+    color: black;
+    font-size: 30px;
+    padding-right: 5px;
+  }
+  .navbar{
+    background-color: #e1d3b6;
+  }

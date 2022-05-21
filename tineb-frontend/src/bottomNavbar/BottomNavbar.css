@@ -1,0 +1,17 @@
+.b-navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e1d3b6;
+  }
+  
+  .b-navbar-link {
+    float: left;
+    display: block;
+     color: black; 
+    text-align: center;
+    padding: 14px 25px;
+    font-size: 30px;
+  }
