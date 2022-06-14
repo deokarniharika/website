@@ -2,6 +2,7 @@ import './App.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Navbar from './navbar/Navbar';
 import BottomNavbar from './bottomNavbar/BottomNavbar';
+
 function App() {
   return (
     <div className="App">
@@ -12,5 +13,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

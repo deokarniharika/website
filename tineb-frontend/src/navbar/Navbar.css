@@ -12,3 +12,7 @@
   .navbar{
     background-color: #e1d3b6;
   }
+  a{
+    text-decoration: none;
+    color: black;
+  }

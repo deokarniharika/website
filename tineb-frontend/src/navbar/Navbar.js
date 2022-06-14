@@ -1,25 +1,46 @@
+import React, { Component } from 'react';
 import './Navbar.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
-
-function Navbar() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+import Blurbs from '../blurbs/Blurbs';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import Petitions from '../petitions/Petitions';
+export default class navbar extends Component {
+  render() {
+    return (
+      
+      <>
       <div className="navbar">
-        <div className="home-icon"><i class="bi bi-house-fill"></i></div>
-        <h1>There Is No Earth B</h1>
+        <div className="home-icon"><a href='/'><i class="bi bi-house-fill"></i></a></div>
+        {/* <Router> */}
+        {/* <Link to="/blurbs">THERE IS NO EARTH B</Link> */}
+        <h3><a href="/blurbs">THERE IS NO EARTH B</a></h3>
+        {/* <Link to="/blurbs"><h1>There Is No Earth B</h1></Link> */}
+        {/* <Route path="/blurbs" component={Blurbs} />   */}
+        {/* </Router> */}
         <div className="wallet-icon"><i class="bi bi-wallet2"></i></div>
       </div>
-      {/* <div class="b-navbar">
-        <a href="#events" className="b-navbar-link"><i class="bi bi-calendar2-week"></i></a>
-        <a href="#howto" className="b-navbar-link"><i class="bi bi-magic"></i></a>
-        <a href="#articles" className="b-navbar-link"><i class="bi bi-book"></i></a>
-        <a href="#videos" className="b-navbar-link"><i class="bi bi-film"></i></a>
-        <a href="#stats" className="b-navbar-link"><i class="bi bi-globe"></i></a>
-      </div> */}
-    </div>
-  );
+      <Router>
+          <Routes>
+           <Route path="/blurbs" element={<Blurbs />} />
+           <Route path="/petitions" element={<Petitions />}/>
+         </Routes>
+        </Router>
+    </>
+    )
+  }
 }
 
-export default Navbar;
+
+// function Navbar() {
+//   return (
+    
+//   );
+// }
+
+// export default Navbar;
+
+

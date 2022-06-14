@@ -1,0 +1,31 @@
+.body{
+    background-color: #e1d3b6;
+}
+.heading{
+    background-color: #234A8D;
+    text-align: center;
+    color: #FFA800;
+    letter-spacing: 5px;
+}
+.head{
+    padding-left: 20px;
+    font-family: 'Domine';
+    color: #58451E;
+    font-size: 18px;
+}
+.petition{
+    display: flex;
+    padding-left: 10px;
+    margin-top: 5.5%;
+}
+.petitionHeading{
+    margin-left: 3%;
+    color: #234A8D;
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.petitionData{
+    display: grid;
+}
