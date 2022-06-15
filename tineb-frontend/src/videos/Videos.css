@@ -1,0 +1,43 @@
+
+.vtitle {
+    text-align: left;
+        padding: 5px 20px 5px;
+    color: #000000;
+    font-family: 'League Spartan', sans-serif;
+}
+.vtext {
+    text-align: left;
+    color: #234a8d;
+    font-size: 18px;
+    padding: 0px 20px 15px;
+    font-family: 'League Spartan', sans-serif;
+        
+}
+.text {
+    text-align: left;
+    color: #234a8d;
+    font-size: 25px;
+    padding: 1px 20px 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+.videos {
+    background-color: #e1d3b6;
+    text-align: center;
+    padding: 10px 20px;
+ 
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+   
+}
+    .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        padding: 10px 20px;
+    }
