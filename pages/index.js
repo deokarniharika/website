@@ -17,18 +17,22 @@ export default function Index({ allEvents }) {
           <title>{ORG_NAME}</title>
         </Head>
         <Container>
-          <Intro />
-          {heroEvent && (
-            <HeroEvent
-              title={heroEvent.title}
-              coverImage={heroEvent.coverImage}
-              date={heroEvent.date}
-              author={heroEvent.author}
-              slug={heroEvent.slug}
-              excerpt={heroEvent.excerpt}
-            />
-          )}
-          {moreEvents.length > 0 && <MoreEvents events={moreEvents} />}
+          <div className='w-3/4 m-auto'>
+            <Intro />
+            <div className='content-center'>
+              {heroEvent && (
+                <HeroEvent
+                  title={heroEvent.title}
+                  coverImage={heroEvent.coverImage}
+                  date={heroEvent.date}
+                  author={heroEvent.author}
+                  slug={heroEvent.slug}
+                  excerpt={heroEvent.excerpt}
+                />
+              )}
+              {moreEvents.length > 0 && <MoreEvents events={moreEvents} />}
+            </div>
+          </div>
         </Container>
       </Layout>
     </>

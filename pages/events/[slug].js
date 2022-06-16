@@ -21,28 +21,30 @@ export default function Event({ event, moreEvents, preview }) {
   return (
     <Layout preview={preview}>
       <Container>
-        <Header />
-        {router.isFallback ? (
-          <EventTitle>Loading…</EventTitle>
-        ) : (
-          <>
-            <article className="mb-32">
-              <Head>
-                <title>
-                  {event.title} | {ORG_NAME}
-                </title>
-                <meta property="og:image" content={event.ogImage.url} />
-              </Head>
-              <EventHeader
-                title={event.title}
-                coverImage={event.coverImage}
-                date={event.date}
-                author={event.author}
-              />
-              <EventBody content={event.content} />
-            </article>
-          </>
-        )}
+        <div className='w-3/4 m-auto'>
+          <Header />
+          {router.isFallback ? (
+            <EventTitle>Loading…</EventTitle>
+          ) : (
+            <>
+              <article className="mb-32">
+                <Head>
+                  <title>
+                    {event.title} | {ORG_NAME}
+                  </title>
+                  <meta property="og:image" content={event.ogImage.url} />
+                </Head>
+                <EventHeader
+                  title={event.title}
+                  coverImage={event.coverImage}
+                  date={event.date}
+                  author={event.author}
+                />
+                <EventBody content={event.content} />
+              </article>
+            </>
+          )}
+        </div>
       </Container>
     </Layout>
   );

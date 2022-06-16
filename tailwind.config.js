@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./components/**/*.js', './pages/**/*.js'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -30,4 +31,8 @@ module.exports = {
       },
     },
   },
-}
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};

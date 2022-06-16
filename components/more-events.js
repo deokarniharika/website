@@ -2,7 +2,7 @@ import EventPreview from '../components/event-preview';
 
 export default function MoreStories({ events: events }) {
   return (
-    <section>
+    <section className=''>
       <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
         More Events
       </h2>
