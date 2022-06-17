@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Grid from '@material-ui/core/Grid';
 import styled from '@emotion/styled';
 import EventsCard from './EventsCard.tsx';
-import { grid } from "@mui/system";
 
 const StyledHeaderDiv = styled('div')`
   font-size:42px;
