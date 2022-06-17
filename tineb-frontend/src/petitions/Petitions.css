@@ -29,3 +29,6 @@
 .petitionData{
     display: grid;
 }
+.petitionHeading:hover{
+    color: #336bcc;
+}
