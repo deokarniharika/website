@@ -23,7 +23,8 @@ const Moreheader = styled("div")`
     font-style: normal;
     text-align: center;
     color: #FFA800;
-    font-family: 'League Spartan', sans-serif;
+    font-family:Domine;
+   
 `;
 function Videos() {
   return (
