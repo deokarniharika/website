@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import Meta from '../components/meta';
+import Meta from '../components/Meta';
 import BottomNavbar from './BottomNavbar';
 import Loader from './Loader';
 import TopBar from './TopBar';
