@@ -1,12 +1,11 @@
 import React from "react";
 import "./Videos.css";
-import Logo from "./arrow.png";
 import PropTypes from "prop-types";
 // more = watch more videos title and link.
 const More = ({title,href}) => (
         <>
             <div className="text">
-                <img src={Logo} alt="Visit link"/><a style={{ color: '#234a8d' }} href={href}>{title}</a>
+            <i className="bi bi-arrow-up-right"/><a style={{ color: '#234a8d' ,  paddingLeft: '10px'}} href={href}>{title}</a>
             </div>
         </>
 );
