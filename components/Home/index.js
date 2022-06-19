@@ -1,11 +1,7 @@
-import React, { Component, useState, useEffect } from 'react';
-import {
-  XYPlot,
-  XAxis,
-  YAxis,
-  AreaSeries
-} from 'react-vis';
+import React, { useState, useEffect } from 'react';
 import AnimatedNumber from "animated-number-react";
+import WasteCleanedChart from './WasteCleanedChart';
+import SolidarityCard from './SolidarityCard';
 
 const LineData = [
   { x: 319, y: 44 },
@@ -28,42 +24,17 @@ export default function Home() {
   const [counter2, setCounter2] = useState(0);
 
   useEffect(() => {
-    setCounter1(11031);
-    setCounter2(19545.135);
+    setTimeout(() => {
+      setCounter1(11031);
+      setCounter2(19545.135);
+    }, 2000);
   });
 
   return (
     <>
       <div className='w-full h-screen mx-auto flex flex-col'>
-        <div className='my-5'>
-          <XYPlot width={325} height={400} className="mx-auto">
-            <XAxis
-              tickLabelAngle={-90}
-              tickTotal={LineData.length}
-              position='middle'
-              title=''
-              style={{
-                text: { fontFamily: 'Roboto', stroke: 'none', fill: '#2e4a79' },
-                title: {
-                  fontFamily: 'Roboto', stroke: 'none', fill: '#2e4a79'
-                }
-              }}
-            />
-            <YAxis
-              position='middle'
-              title='Waste Removed (tonnes)'
-              style={{
-                text: { fontFamily: 'Roboto', stroke: 'none', fill: '#2e4a79' },
-                title: {
-                  fontFamily: 'Roboto', stroke: 'none', fill: '#2e4a79'
-                }
-              }} />
-            <AreaSeries
-              color={'#2e4a79'}
-              curve="curveNatural"
-              data={LineData}
-            />
-          </XYPlot>
+        <div className='my-5 pt-1'>
+          <WasteCleanedChart data={LineData} />
         </div>
         <div className='my-5 flex flex-col items-center text-accent-2'>
           <div className='text-7xl mb-0'>
@@ -88,19 +59,55 @@ export default function Home() {
           </div>
         </div>
         <div className='my-6 py-3 mx-6 text-center flex flex-col items-center text-accent-1'>
-          <div class="max-w-sm bg-accent-2 rounded-lg border border-accent-2 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
-              <img class="rounded-t-lg" src="/assets/noearthb.jpeg" alt="" />
-            </a>
-            <div class="p-5">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight dark:text-white">Tweet in Solidarity</h5>
-              <a href="https://twitter.com/intent/tweet?url=https://thereisnoearthb.org&text=I+stand+in+solidarity+with+@thereisnoearthb.&hashtags=ThereIsNoEarthB" class="inline-flex items-center mt-3 py-2 px-3 text-lg font-bold text-center text-accent-2 bg-accent-1 rounded-lg hover:bg-accent-2 focus:ring-4 focus:outline-none focus:ring-accent-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mb-3">
-                <i className='bi bi-twitter mr-2'></i> #ThereIsNoEarthB
-              </a>
+          <SolidarityCard />
+        </div>
+        <div className='mt-8 bg-accent-2 min-h-screen'>
+          <div className=''>
+            <img className="" src="/assets/noearthb.jpeg" alt="" style={{
+              minHeight: '15em',
+              overflow: 'hidden',
+              objectFit: 'cover'
+            }} />
+            <div className='relative left-0 top-20 pt-7 flex flex-col items-center justify-center'>
+              <div className='text-center text-3xl text-accent-1 capitalize font-bold'>
+                Who we are?
+              </div>
+              <div className='text-justify text-md text-accent-1 w-3/4 mt-5'>
+                Hi there! We're a passionate bunch of humans on a mission to save the
+                Earth. It is an earnest effort of active citizens to bring about change
+                at the ground level.
+              </div>
+              <div className='text-justify text-md text-accent-1 w-3/4 mt-5'>
+                We've cleaned up more than 9 tons of
+                non-biodegradable waste and we are on a mission to save the Earth who
+                believe in Inclusive, Organic, and Decentralized Climate Action.
+              </div>
+              <div class="p-5">
+                <a href="https://twitter.com/intent/tweet?url=https://thereisnoearthb.org&text=I+stand+in+solidarity+with+@thereisnoearthb.&hashtags=ThereIsNoEarthB" class="inline-flex items-center mt-1 py-2 px-3 text-2xl font-bold text-center text-accent-2 bg-accent-1 rounded-lg hover:bg-accent-2 focus:ring-4 focus:outline-none focus:ring-accent-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mb-3">
+                  #ThereIsNoEarthB
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className='min-h-screen'></div>
+        <div className='mx-4 bg-accent-1 my-8' style={{
+          minHeight: '7em',
+        }}>
+          <div className='text-center text-3xl text-accent-2 capitalize'>
+            <a href='https://www.instagram.com/thereisnoearthb/' target={'_blank'} rel={'noopener noreferrer'}>
+              <i className='bi bi-instagram px-5'></i>
+            </a>
+            <a href='https://twitter.com/ThereIsNoEarthB' target={'_blank'} rel={'noopener noreferrer'}>
+              <i className='bi bi-twitter px-5'></i>
+            </a>
+            <a href='https://www.facebook.com/thereisnoearthb/' target={'_blank'} rel={'noopener noreferrer'}>
+              <i className='bi bi-facebook px-5'></i>
+            </a>
+            <a href='https://www.linkedin.com/in/thereisnoearthb' target={'_blank'} rel={'noopener noreferrer'}>
+              <i className='bi bi-linkedin px-5'></i>
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
