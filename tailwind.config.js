@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
+        'accent-1': '#e1d3b5',
+        'accent-2': '#2e4a79',
+        'accent-3': '#222222',
         success: '#0070f3',
         cyan: '#79FFE1',
       },
