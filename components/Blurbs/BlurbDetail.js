@@ -37,8 +37,8 @@ export default function BlurbDetail({ title, coverImage, date, content }) {
         <div className="mb-7 text-sm italic text-center lowercase">
           Posted on <FormattedDate dateString={date} />
         </div>
-        <div className="mb-8 md:mb-16 sm:mx-0 w-full">
-          <img src={coverImage} />
+        <div className="mb-8 md:mb-16 sm:mx-0 w-full mx-auto">
+          <img src={coverImage} className="w-full mx-auto" />
         </div>
         <div className="w-3/4 text-justify mx-auto mb-8">
           <div className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }}></div>
