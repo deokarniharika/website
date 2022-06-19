@@ -1,139 +1,83 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import React from 'react';
-import Modal from "react-bootstrap/Modal";
+import * as React from "react";
+import "./Blurbs.css";
 import { useState } from "react";
-function Blurbs(){
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
+
+function Card(props) {
   const [show, setShow] = useState(false);
-return(
-  <>
-    <Card style={{ width: '18rem', margin:"auto", marginTop:"5%" }}>
-  <Card.Img variant="top" src="https://assets.weforum.org/article/image/responsive_big_webp_SXMiUsf5AnBvmylkmZHo1gZJesNKaX7WA0sMGmhyAvY.webp" />
-  <Card.Body>
-    <Card.Title>Save Satoli</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary" onClick={() => setShow(true)}>
-        Read Article
-      </Button>
-
-      <Modal
-        show={show}
-        onHide={() => setShow(false)}
-        dialogClassName="modal-90w"
-        aria-labelledby="example-custom-modal-styling-title"
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="example-custom-modal-styling-title">
-            Custom Modal Styling
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p>
-            Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-            commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-            ipsam atque a dolores quisquam quisquam adipisci possimus
-            laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-            accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-            reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-            deleniti rem!
-          </p>
-        </Modal.Body>
-      </Modal>
-  </Card.Body>
-</Card>
-
-<Card style={{ width: '18rem', margin:"auto", marginTop:"5%", marginBottom:"10%" }}>
-  <Card.Img variant="top" src="https://assets.weforum.org/article/image/responsive_big_webp_SXMiUsf5AnBvmylkmZHo1gZJesNKaX7WA0sMGmhyAvY.webp" />
-  <Card.Body>
-    <Card.Title>Save Sanjay Vann</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary" onClick={() => setShow(true)}>
-        Read Article
-      </Button>
-
-      <Modal
-        show={show}
-        onHide={() => setShow(false)}
-        dialogClassName="modal-90w"
-        aria-labelledby="example-custom-modal-styling-title"
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="example-custom-modal-styling-title">
-            Custom Modal Styling
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p>
-            Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-            commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-            ipsam atque a dolores quisquam quisquam adipisci possimus
-            laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-            accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-            reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-            deleniti rem!
-          </p>
-        </Modal.Body>
-      </Modal>
-  </Card.Body>
-</Card>
-</>
-);
+  return (
+    <>
+      <div className="card">
+        <div className="card__body">
+          <img src={props.img} alt="hi" width={293} height={174} className="card__image" />
+          <h2 className="card__title">{props.title}</h2>
+          <p className="card__description">{props.description}</p>
+        </div>
+        <Button color="#234A8D" variant="primary" onClick={() => setShow(true)}>
+          Read Article
+        </Button>
+        <Modal
+          show={show}
+          onHide={() => setShow(false)}
+          dialogClassName="modal-90w"
+          aria-labelledby="example-custom-modal-styling-title"
+        >
+          <Modal.Header closeButton>
+            <Modal.Title id="example-custom-modal-styling-title">
+              Custom Modal Styling
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>
+              Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae
+              unde commodi aspernatur enim, consectetur. Cumque deleniti
+              temporibus ipsam atque a dolores quisquam quisquam adipisci
+              possimus laboriosam. Quibusdam facilis doloribus debitis! Sit
+              quasi quod accusamus eos quod. Ab quos consequuntur eaque quo rem!
+              Mollitia reiciendis porro quo magni incidunt dolore amet atque
+              facilis ipsum deleniti rem!
+            </p>
+          </Modal.Body>
+        </Modal>
+      </div>
+    </>
+  );
 }
-export default Blurbs;
 
+export default function Blurbs() {
+  return (
+    <>
+      <span className="hi">
+        {" "}
+        <p> Blurbs </p>{" "}
+      </span>
 
-//-------- TEST ------
-// export default class Blurbs extends Component {
-//   constructor(props){
-//     super(props);
-//     this.state=show;
-//   }
-//   render() {
-//     return (
-//       <Card style={{ width: '18rem' }}>
-//         <Card.Img variant="top" src="https://assets.weforum.org/article/image/responsive_big_webp_SXMiUsf5AnBvmylkmZHo1gZJesNKaX7WA0sMGmhyAvY.webp" />
-//         {/* <img src="https://assets.weforum.org/article/image/responsive_big_webp_SXMiUsf5AnBvmylkmZHo1gZJesNKaX7WA0sMGmhyAvY.webp" alt="Girl in a jacket" /> */}
-//         <Card.Body>
-//           <Card.Title>Save Satoli</Card.Title>
-//           <Card.Text>
-//             Some quick example text to build on the card title and make up the bulk of
-//             the card's content.
-//           </Card.Text>
-//           <Button variant="primary" onClick={() => this.setState(true)}>
-//         Custom Width Modal
-//       </Button>
+      <div className="wrapper">
+        <Card
+          img="img/satoli.jpg"
+          title="Save Satoli"
+          description="In a residential area of Satoli Village, an illegal borewell has been dug and operationalized for commercial purposes causing immense anxiety and anger among the residents."
+        />
 
-//       <Modal
-//         // show={show}
-//         onHide={() => this.setState(false)}
-//         dialogClassName="modal-90w"
-//         aria-labelledby="example-custom-modal-styling-title"
-//       >
-//         <Modal.Header closeButton>
-//           <Modal.Title id="example-custom-modal-styling-title">
-//             Custom Modal Styling
-//           </Modal.Title>
-//         </Modal.Header>
-//         <Modal.Body>
-//           <p>
-//             Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-//             commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-//             ipsam atque a dolores quisquam quisquam adipisci possimus
-//             laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-//             accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-//             reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-//             deleniti rem!
-//           </p>
-//         </Modal.Body>
-//       </Modal>
-//         </Card.Body>
-//       </Card>
-//     )
-//   }
-// }
+        <Card
+          img="img/sanjayvan.jpg"
+          title="Save Sanjay Van"
+          description="A Citizens’ appeal to withdraw the Tender Notification issued by Delhi Development Authority to convert the Sanjay Van area as an Eco-Tourism Hub. Delhi Development Authority is planning to utilize the forest area for recreational purposes."
+        />
+
+        <Card
+          img="img/behali.jpg"
+          title="Save Behali"
+          description="We must save Behali RF, home to several threatened species including the Vulnerable Capped Langurs."
+        />
+
+        <Card
+          img="img/sattal.jpg"
+          title="Save Sattal"
+          description="Sattal has been engulfed by raging fires. It grieves the dying springs that once cascaded down to form powerful rivers that now run dry."
+        />
+      </div>
+    </>
+  );
+}
