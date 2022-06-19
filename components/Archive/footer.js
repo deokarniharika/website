@@ -1,4 +1,4 @@
-import Container from './container';
+import Container from './Container';
 import { EXAMPLE_PATH } from '../lib/constants';
 import useDarkMode from '../lib/useDarkMode';
 

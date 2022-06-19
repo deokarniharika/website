@@ -1,6 +1,6 @@
 import { format, parse, parseISO } from 'date-fns';
 
-export default function DateFormatter({ dateString }) {
+export default function FormattedDate({ dateString }) {
   const date = parse(dateString, 'dd-MM-yyyy', new Date(), {
     locale: 'en-IN',
     addSuffix: true

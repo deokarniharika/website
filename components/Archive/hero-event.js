@@ -1,5 +1,5 @@
 import Avatar from './avatar';
-import DateFormatter from './date-formatter';
+import FormattedDate from './FormattedDate';
 import CoverImage from './cover-image';
 import Link from 'next/link';
 
@@ -30,7 +30,7 @@ export default function HeroEvent({
             </Link>
           </h3>
           <div className="mb-4 md:mb-0 text-lg">
-            <DateFormatter dateString={date} />
+            <FormattedDate dateString={date} />
           </div>
         </div>
         <div>

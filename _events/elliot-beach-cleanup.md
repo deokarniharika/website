@@ -1,13 +1,9 @@
 ---
-title: 'Elliot Beach Cleanup'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/events/elliot-beach-cleanup/Elliot_Beach_Cleanup.jpg'
-date: '19-05-2022'
-author:
-  name: Niharika @ TINEB
-  picture: '/assets/authors/joe.jpeg'
-ogImage:
-  url: '/assets/events/elliot-beach-cleanup/Elliot_Beach_Cleanup.jpg'
+title: Elliot's Beach Cleanup
+excerpt: 5th June 2022 @ 6AM
+coverImage: /assets/events/elliot-beach-cleanup/Elliot_Beach_Cleanup.jpg
+date: 19-05-2022
+author: Niharika @ TINEB
 ---
 
 This is a description of the event. :+1: to approve. :-1: to reject.

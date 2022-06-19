@@ -1,8 +1,8 @@
-import React from 'react'
-import './Petitions.css'
+import React from 'react';
+import './Petitions.css';
 import { useState } from "react";
 import PetitionsModal from './PetitionsModal.tsx';
-import { Card, CardHeader, CardMedia} from "@material-ui/core";
+import { Card, CardHeader, CardMedia } from "@material-ui/core";
 import styled from '@emotion/styled';
 
 const StyledPetitionHeaderDiv = styled('div')`
@@ -34,20 +34,20 @@ export default function Petitions() {
       <Card>
         <CardHeader
           title="SIGN THE PETITIONS"
-          style={{ color: '#FFA800', backgroundColor: '#234A8D', textAlign:'center' }}
+          style={{ color: '#FFA800', backgroundColor: '#234A8D', textAlign: 'center' }}
         />
         <StyledCardMediaHeaderDiv>
-          <i class="bi bi-arrow-up-right" />
-          <span style={{paddingLeft:'0.5rem'}}>
+          <i className="bi bi-arrow-up-right" />
+          <span style={{ paddingLeft: '0.5rem' }}>
             Ban Single Use Plastic
           </span>
-         
+
         </StyledCardMediaHeaderDiv>
         <CardMedia
           component="img"
           height="300"
           image={process.env.PUBLIC_URL + "/img/Ban_Single_Use_Plastic.jpg"}
-          style={{ objectFit: 'inherit', paddingLeft: '2rem', paddingRight:'2rem', paddingBottom:'2rem' ,borderRadius:'3rem'}}
+          style={{ objectFit: 'inherit', paddingLeft: '2rem', paddingRight: '2rem', paddingBottom: '2rem', borderRadius: '3rem' }}
         />
       </Card>
 
@@ -56,7 +56,7 @@ export default function Petitions() {
       </StyledPetitionHeaderDiv>
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Ban Single Use Plastic
           </h4>
@@ -66,7 +66,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Save Sanjay Vann
           </h4>
@@ -76,7 +76,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Save Sattal
           </h4>
@@ -86,7 +86,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Save Me
           </h4>
@@ -96,7 +96,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Save Me Please
           </h4>
@@ -106,7 +106,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Please Save Me
           </h4>
@@ -116,7 +116,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Please Sing me to sleep
           </h4>
@@ -126,7 +126,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Make me Prime Minister
           </h4>
@@ -136,7 +136,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Buy me a MLA
           </h4>
@@ -146,7 +146,7 @@ export default function Petitions() {
 
       <div>
         <div className='petition'>
-          <i class="bi bi-arrow-up-right"></i>
+          <i className="bi bi-arrow-up-right"></i>
           <h4 className="petitionHeading" variant="primary" onClick={() => setShow(true)}>
             Ban Going out during day in Summers
           </h4>
@@ -154,6 +154,6 @@ export default function Petitions() {
         <PetitionsModal setShow={setShow} show={show} />
       </div>
     </div>
-  )
+  );
 }
 

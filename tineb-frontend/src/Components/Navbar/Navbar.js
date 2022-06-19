@@ -19,8 +19,8 @@ export default class Navbar extends Component {
 
       <>
         <div className="navbar">
-          <div className="home-icon"><a href='/home'><i class="bi bi-house-fill"></i></a></div>
-          <div className="wallet-icon"><a href="https://www.buymeacoffee.com/thereisnoearthb"><i class="bi bi-wallet2"></i></a></div>
+          <div className="home-icon"><a href='/home'><i className="bi bi-house-fill"></i></a></div>
+          <div className="wallet-icon"><a href="https://www.buymeacoffee.com/thereisnoearthb"><i className="bi bi-wallet2"></i></a></div>
         </div>
         <Router>
           <Routes>
@@ -34,6 +34,6 @@ export default class Navbar extends Component {
           </Routes>
         </Router>
       </>
-    )
+    );
   }
 }

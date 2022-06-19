@@ -1,5 +1,5 @@
 import Avatar from './avatar';
-import DateFormatter from './date-formatter';
+import FormattedDate from './FormattedDate';
 import CoverImage from './cover-image';
 import EventTitle from '../components/event-title';
 
@@ -18,7 +18,7 @@ export default function EventHeader({ title, coverImage, date, author }) {
           <Avatar name={author.name} picture={author.picture} />
         </div>
         <div className="mb-6 text-lg italic">
-          Posted on <DateFormatter dateString={date} />
+          Posted on <FormattedDate dateString={date} />
         </div>
       </div>
     </>

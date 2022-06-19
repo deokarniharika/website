@@ -1,5 +1,5 @@
 import Avatar from './avatar';
-import DateFormatter from './date-formatter';
+import FormattedDate from './FormattedDate';
 import CoverImage from './cover-image';
 import Link from 'next/link';
 
@@ -28,7 +28,7 @@ export default function EventPreview({
         </Link>
       </h3>
       <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
+        <FormattedDate dateString={date} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
       <Avatar name={author.name} picture={author.picture} />

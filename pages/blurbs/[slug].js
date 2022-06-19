@@ -1,0 +1,82 @@
+import { useRouter } from 'next/router';
+import ErrorPage from 'next/error';
+import Container from '../../components/Container';
+import Layout from '../../components/Layout';
+import { getBlurbBySlug, getAllBlurbs } from '../../lib/api';
+import Head from 'next/head';
+import { ORG_NAME } from '../../lib/constants';
+import markdownToHtml from '../../lib/markdownToHtml';
+import Loader from '../../components/Loader';
+import BlurbDetail from '../../components/Blurbs/BlurbDetail';
+
+export default function Blurb({ blurb, moreBlurbs, preview }) {
+  const router = useRouter();
+
+  if (!router.isFallback && !blurb?.slug) {
+    return <ErrorPage statusCode={404} />;
+  }
+
+  return (
+    <Layout preview={preview}>
+      <Container>
+        {router.isFallback ? (
+          <Loader />
+        ) : (
+          <>
+            <Head>
+              <title>
+                {blurb.title} | {ORG_NAME}
+              </title>
+              <meta property="og:image" content={blurb.coverImage} />
+            </Head>
+            <article className="mb-32">
+              <BlurbDetail
+                slug={blurb.slug}
+                title={blurb.title}
+                coverImage={blurb.coverImage}
+                date={blurb.date}
+                content={blurb.content}
+              />
+            </article>
+          </>
+        )}
+      </Container >
+    </Layout >
+  );
+}
+
+export async function getStaticProps({ params }) {
+  const blurb = getBlurbBySlug(params.slug, [
+    'title',
+    'date',
+    'slug',
+    'excerpt',
+    'coverImage',
+    'content',
+  ]);
+
+  const content = await markdownToHtml(blurb.content || '');
+
+  return {
+    props: {
+      blurb: {
+        ...blurb,
+        content,
+      },
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  const blurbs = getAllBlurbs(['slug']);
+  return {
+    paths: blurbs.map((blurb) => {
+      return {
+        params: {
+          slug: blurb.slug,
+        },
+      };
+    }),
+    fallback: false,
+  };
+}

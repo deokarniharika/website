@@ -15,6 +15,7 @@
     "next": "latest",
     "react": "^17.0.2",
     "react-animated-numbers": "^0.13.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.2",
     "react-vis": "^1.11.7",
     "rehype-autolink-headings": "^6.1.1",
@@ -27,7 +28,6 @@
     "remark-gfm": "^3.0.1",
     "remark-html": "15.0.1",
     "remark-iframes": "^4.0.5",
-    "remark-oembed": "^1.2.2",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
     "unified": "^10.1.2"

@@ -1,15 +1,13 @@
 import { useRouter } from 'next/router';
 import ErrorPage from 'next/error';
-import Container from '../../components/container';
-import EventBody from '../../components/event-body';
-import Header from '../../components/header';
-import EventHeader from '../../components/event-header';
-import Layout from '../../components/layout';
+import Container from '../../components/Container';
+import Layout from '../../components/Layout';
 import { getEventBySlug, getAllEvents } from '../../lib/api';
-import EventTitle from '../../components/event-title';
 import Head from 'next/head';
 import { ORG_NAME } from '../../lib/constants';
 import markdownToHtml from '../../lib/markdownToHtml';
+import Loader from '../../components/Loader';
+import EventDetail from '../../components/Events/EventDetail';
 
 export default function Event({ event, moreEvents, preview }) {
   const router = useRouter();
@@ -21,32 +19,30 @@ export default function Event({ event, moreEvents, preview }) {
   return (
     <Layout preview={preview}>
       <Container>
-        <div className='w-3/4 m-auto'>
-          <Header />
-          {router.isFallback ? (
-            <EventTitle>Loading…</EventTitle>
-          ) : (
-            <>
-              <article className="mb-32">
-                <Head>
-                  <title>
-                    {event.title} | {ORG_NAME}
-                  </title>
-                  <meta property="og:image" content={event.ogImage.url} />
-                </Head>
-                <EventHeader
-                  title={event.title}
-                  coverImage={event.coverImage}
-                  date={event.date}
-                  author={event.author}
-                />
-                <EventBody content={event.content} />
-              </article>
-            </>
-          )}
-        </div>
-      </Container>
-    </Layout>
+        {router.isFallback ? (
+          <Loader />
+        ) : (
+          <>
+            <Head>
+              <title>
+                {event.title} | {ORG_NAME}
+              </title>
+              <meta property="og:image" content={event.coverImage} />
+            </Head>
+            <article className="mb-32">
+              <EventDetail
+                slug={event.slug}
+                title={event.title}
+                author={event.author}
+                coverImage={event.coverImage}
+                date={event.date}
+                content={event.content}
+              />
+            </article>
+          </>
+        )}
+      </Container >
+    </Layout >
   );
 }
 
@@ -56,10 +52,11 @@ export async function getStaticProps({ params }) {
     'date',
     'slug',
     'author',
-    'content',
-    'ogImage',
+    'excerpt',
     'coverImage',
+    'content',
   ]);
+
   const content = await markdownToHtml(event.content || '');
 
   return {
@@ -74,7 +71,6 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const events = getAllEvents(['slug']);
-
   return {
     paths: events.map((event) => {
       return {

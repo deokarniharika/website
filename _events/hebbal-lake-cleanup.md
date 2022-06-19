@@ -1,13 +1,9 @@
 ---
-title: 'Hebbal Lake Cleanup'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/events/hebbal-lake-cleanup/Hebbal_lake_Cleanup.jpg'
-date: '16-05-2022'
-author:
-  name: DD @ TINEB
-  picture: '/assets/authors/tim.jpeg'
-ogImage:
-  url: '/assets/events/hebbal-lake-cleanup/Hebbal_lake_Cleanup.jpg'
+title: Hebbal Lake Cleanup
+excerpt: 5th June 2022 @ 8AM
+coverImage: /assets/events/hebbal-lake-cleanup/Hebbal_lake_Cleanup.jpg
+date: 16-05-2022
+author: DD @ TINEB
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus pretium aliquet. Aliquam molestie ex sit amet faucibus porttitor. In quis tempor leo. Fusce ut faucibus velit. Donec non justo at nunc dignissim fringilla. Pellentesque nec mauris a elit sollicitudin varius. Etiam sed pellentesque diam. Maecenas est est, porttitor tincidunt cursus at, hendrerit in ex. Aliquam vulputate pharetra risus, sed volutpat neque facilisis vel. Praesent tempus venenatis sapien, sit amet viverra nunc pulvinar id.
