@@ -5,7 +5,7 @@ import FormattedDate from '../FormattedDate';
 import markdownStyles from '../markdown-styles.module.css';
 import SharingIcons from '../SharingIcons';
 
-export default function BlurbDetail({ title, coverImage, author, date, content }) {
+export default function BlurbDetail({ title, coverImage, author, category, date, content }) {
   const { asPath } = useRouter();
 
   return (
@@ -32,15 +32,19 @@ export default function BlurbDetail({ title, coverImage, author, date, content }
             </a>
           </div>
         </div>
-        <h2 className='text-2xl text-center mt-5 font-bold'>{title}</h2>
-        <div className="mb-5 text-sm italic text-center lowercase">
+        <h1 className='text-2xl text-center mt-5 font-bold'>{title}</h1>
+        <div className="mb-2 text-sm italic text-center lowercase">
           Posted on <FormattedDate dateString={date} />
-          <br />
-          <strong>{author}</strong>
+          {/* {author && <><br /><strong>{author}</strong></>} */}
+        </div>
+        <div className='w-full mb-5 mx-auto text-center'>
+          <button className="bg-accent-2 lowercase text-accent-1 font-bold text-xs py-2 px-4 rounded-full">
+            {category}
+          </button>
         </div>
       </div>
       <div className="mb-8 md:mb-16 sm:mx-0 w-full mx-auto">
-        <img src={coverImage} className="w-full mx-auto" />
+        <img src={coverImage} alt={title} className="w-full mx-auto" />
       </div>
       <div className="w-3/4 text-justify mx-auto mb-8">
         <div className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }}></div>

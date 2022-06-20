@@ -2,7 +2,8 @@
 title: Hebbal Lake Cleanup
 excerpt: 5th June 2022 @ 8AM
 coverImage: /assets/events/hebbal-lake-cleanup/Hebbal_lake_Cleanup.jpg
-date: 16-05-2022
+date: 16-05-2020
+category: Climate Action
 author: DD @ TINEB
 ---
 
