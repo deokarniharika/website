@@ -8,17 +8,10 @@ import {
 export default function WasteCleanedChart(props) {
   return (
     <XYPlot width={325} height={250} className="mx-auto">
-      <XAxis
-        tickLabelAngle={-90}
-        tickTotal={props.data.length}
-        position='middle'
-        title=''
-        style={{
-          text: { fontFamily: 'Roboto', stroke: 'none', fontSize: '.8rem', fill: '#2e4a79' },
-          title: {
-            fontFamily: 'Roboto', stroke: 'none', fill: '#2e4a79', fontSize: '.8rem'
-          }
-        }}
+      <AreaSeries
+        color={'#2e4a79'}
+        curve="curveNatural"
+        data={props.data}
       />
       <YAxis
         tickTotal={7}
@@ -27,13 +20,20 @@ export default function WasteCleanedChart(props) {
         style={{
           text: { fontFamily: 'Roboto', fontSize: '.8rem', stroke: 'none', fill: '#2e4a79' },
           title: {
-            fontFamily: 'Roboto', stroke: 'none', fill: '#2e4a79', fontSize: '.8rem'
+            fontFamily: 'Roboto', stroke: 'none', fill: '#2e4a79', fontSize: '.75rem'
           }
         }} />
-      <AreaSeries
-        color={'#2e4a79'}
-        curve="curveNatural"
-        data={props.data}
+      <XAxis
+        tickLabelAngle={-90}
+        tickTotal={props.data.length}
+        position='end'
+        title='Cleanup Drive Number'
+        style={{
+          text: { fontFamily: 'Roboto', stroke: 'none', fontSize: '.8rem', fill: '#2e4a79' },
+          title: {
+            fontFamily: 'Roboto', stroke: 'none', fill: '#e1d3b5', fontSize: '.75rem'
+          }
+        }}
       />
     </XYPlot>
   );
