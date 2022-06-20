@@ -27,6 +27,17 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "an-indivisible-whole",
+      "name": "Shubham Kumar Pandey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33973866?v=4",
+      "profile": "https://www.linkedin.com/in/shubham-kumar-pandey-658a24156/",
+      "contributions": [
+        "code",
+        "ideas",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
