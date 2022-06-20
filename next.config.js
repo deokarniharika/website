@@ -22,6 +22,21 @@ module.exports = {
         destination: '/events/sukhna-lake-cleanup-240-chandigarh',
         permanent: false,
       },
+      {
+        source: '/sukhna-lake/cleanup-243-chandigarh.html',
+        destination: '/events/sukhna-lake-cleanup-243-chandigarh',
+        permanent: false,
+      },
+      {
+        source: '/sukhna-lake/cleanup-247-chandigarh.html',
+        destination: '/events/sukhna-lake-cleanup-247-chandigarh',
+        permanent: false,
+      },
+      {
+        source: '/sukhna-lake/cleanup-251-chandigarh.html',
+        destination: '/events/sukhna-lake-cleanup-251-chandigarh',
+        permanent: false,
+      }
     ];
   },
 };
