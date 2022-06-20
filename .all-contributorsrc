@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "deokarniharika",
+      "name": "Niharika Deokar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95857656?v=4",
+      "profile": "https://www.linkedin.com/in/niharika-deokar-3a483b212",
+      "contributions": [
+        "ideas",
+        "design",
+        "code",
+        "projectManagement",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "TINEB-website-revamp",
+  "projectOwner": "deokarniharika",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
