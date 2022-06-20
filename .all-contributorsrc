@@ -48,6 +48,16 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "sudiptog81",
+      "name": "Sudipto Ghosh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11232940?v=4",
+      "profile": "https://ghosh.pro/links",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
