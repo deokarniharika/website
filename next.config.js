@@ -66,6 +66,11 @@ module.exports = {
         source: '/sanjay-vann/clean-up/256-getting-lost.html',
         destination: '/events/sanjay-vann-clean-up-256',
         permanent: false,
+      },
+      {
+        source: '/lucknow/cleanup-245.html',
+        destination: '/events/lucknow-cleanup-245',
+        permanent: false,
       }
     ];
   },
