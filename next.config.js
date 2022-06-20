@@ -81,6 +81,21 @@ module.exports = {
         source: '/ridge-reserve-forest/274-prakriti-delhi-college-of-arts-and-commerce/index.html',
         destination: '/events/ridge-reserve-forest-clean-up-274',
         permanent: false,
+      },
+      {
+        source: '/clean-up-treks/249-madhyamaheshwar-trek-kabir.html',
+        destination: '/events/clean-up-treks-cleanup-249-madhyamaheshwar-trek',
+        permanent: false,
+      },
+      {
+        source: '/clean-up-treks/253-gidara-bugya-manas.html',
+        destination: '/events/clean-up-treks-cleanup-253-gidara-bugyal',
+        permanent: false,
+      },
+      {
+        source: '/clean-up-treks/254-bir-billing-himachal-riti.html',
+        destination: '/events/clean-up-treks-cleanup-254-bir-billing-himachal',
+        permanent: false,
       }
     ];
   },
