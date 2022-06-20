@@ -1,5 +1,9 @@
 # There Is No Earth B
 
+## Contributions
+
+Refer [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+
 ## Development
 
 ```bash

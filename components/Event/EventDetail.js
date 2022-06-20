@@ -12,23 +12,22 @@ export default function BlurbDetail({ title, coverImage, author, date, content }
     <>
       <div>
         <div className='my-5 mt-6 w-11/12 mx-auto flex flex-row justify-between'>
-          <div>
-            <i className='bi bi-arrow-left mr-2'></i>
-            <Link href='/events/'>Go Back</Link>
+          <div className='cursor-pointer'>
+            <Link href='/events/'>
+              <a>
+                <i className='bi bi-arrow-left mr-2'></i>
+                Go Back
+              </a>
+            </Link>
           </div>
-          <div>
+          <div onClick={async () => {
+            await navigator.share({
+              url: asPath,
+              title: title + ' | ' + ORG_NAME
+            });
+          }} className="cursor-pointer">
             Share
-            <a
-              onClick={async () => {
-                await navigator.share({
-                  url: asPath,
-                  title: title + ' | ' + ORG_NAME
-                });
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-md text-center ml-2"
-            >
+            <a className="text-md text-center ml-2">
               <i className="bi bi-share-fill"></i>
             </a>
           </div>

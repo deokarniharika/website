@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import EventsList from '../../components/Events/EventsList';
+import EventsList from '../../components/Event/EventsList';
 import Container from '../../components/Container';
 import Layout from '../../components/Layout';
 import { getAllEvents } from '../../lib/api';

@@ -6,7 +6,7 @@ export default function PetitionLink(petition) {
 
   return (
     <div>
-      <h5 className="text-md mb-3">
+      <h5 className="text-md mb-3 cursor-pointer">
         <i className="bi bi-arrow-right mr-2"></i> <span className="font-bold capitalize hover:underline" type="button" onClick={() => setShow(true)} data-modal-toggle={"modal-" + [petition.slug]}> {petition.title}</span>
       </h5>
       <PetitionModal petition={petition} show={show} setShow={setShow} />

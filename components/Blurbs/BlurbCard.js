@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function BlurbCard(blurb) {
   return (
-    <div className="mx-auto w-full max-w-sm bg-accent-2 rounded-lg shadow mb-8">
+    <div className="mx-auto w-full max-w-sm bg-accent-2 rounded-lg shadow mt-8 mb-8">
       <a href={"/blurbs/" + blurb.slug}>
         <img className="rounded-t-lg w-full" src={blurb.coverImage} alt="" />
       </a>

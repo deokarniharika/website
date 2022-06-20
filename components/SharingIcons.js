@@ -13,7 +13,7 @@ export default function SharingIcons({ title, path }) {
           }}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl text-center mx-2"
+          className="cursor-pointer text-xl text-center mx-3"
         >
           <i className="bi bi-share-fill"></i>
         </a>
@@ -21,7 +21,7 @@ export default function SharingIcons({ title, path }) {
           href={`https://www.facebook.com/sharer/sharer.php?u=${path}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-2xl text-center mx-2"
+          className="cursor-pointer text-2xl text-center mx-3"
         >
           <i className="bi bi-facebook"></i>
         </a>
@@ -29,7 +29,7 @@ export default function SharingIcons({ title, path }) {
           href={`https://twitter.com/intent/tweet?text=${title}&url=${path}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-2xl text-center mx-2"
+          className="cursor-pointer text-2xl text-center mx-3"
         >
           <i className="bi bi-twitter"></i>
         </a>
@@ -37,7 +37,7 @@ export default function SharingIcons({ title, path }) {
           href={`https://www.linkedin.com/shareArticle?mini=true&url=${path}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-2xl text-center mx-2"
+          className="cursor-pointer text-2xl text-center mx-3"
         >
           <i className="bi bi-linkedin"></i>
         </a>
@@ -45,7 +45,7 @@ export default function SharingIcons({ title, path }) {
           href={`https://www.reddit.com/submit?url=${path}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-2xl text-center mx-2"
+          className="cursor-pointer text-2xl text-center mx-3"
         >
           <i className="bi bi-reddit"></i>
         </a>

@@ -20,7 +20,7 @@ export default function WhoWeAre() {
           non-biodegradable waste and we are on a mission to save the Earth who
           believe in Inclusive, Organic, and Decentralized Climate Action.
         </div>
-        <div className="p-5">
+        <div className="p-5 cursor-pointer">
           <a href="https://twitter.com/intent/tweet?url=https://thereisnoearthb.org&text=I+stand+in+solidarity+with+@thereisnoearthb.&hashtags=ThereIsNoEarthB" className="inline-flex items-center mt-1 py-2 px-4 text-2xl font-bold text-center text-accent-2 bg-accent-1 rounded-lg hover:bg-accent-2 focus:ring-4 focus:outline-none focus:ring-accent-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mb-3">
             #ThereIsNoEarthB
           </a>

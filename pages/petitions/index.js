@@ -22,6 +22,7 @@ export default function Index({ allPetitions }) {
                 title={heroPetition.title}
                 coverImage={heroPetition.coverImage}
                 link={heroPetition.link}
+                content={heroPetition.content}
                 slug={heroPetition.slug}
               />
             )}
