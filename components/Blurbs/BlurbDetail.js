@@ -33,8 +33,8 @@ export default function BlurbDetail({ title, coverImage, date, content }) {
             </a>
           </div>
         </div>
-        <h2 className='text-2xl text-center mt-5 font-bold'>{title}</h2>
-        <div className="mb-7 text-sm italic text-center lowercase">
+        <h2 className='text-2xl px-2 text-center mt-5 font-bold'>{title}</h2>
+        <div className="mb-7 px-2 mt-1 text-sm italic text-center lowercase">
           Posted on <FormattedDate dateString={date} />
         </div>
         <div className="mb-8 md:mb-16 sm:mx-0 w-full mx-auto">
