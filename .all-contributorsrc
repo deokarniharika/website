@@ -38,6 +38,16 @@
         "ideas",
         "bug"
       ]
+    },
+    {
+      "login": "forAchilles",
+      "name": "forAchilles",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88034248?v=4",
+      "profile": "https://github.com/forAchilles",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
