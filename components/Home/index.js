@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <>
-      <div className='w-full h-screen mx-auto flex flex-col'>
+      <div className='w-full min-h-screen mx-auto flex flex-col'>
         <div className='my-5 mb-2 pt-1'>
           <WasteCleanedChart data={LineData} />
         </div>
