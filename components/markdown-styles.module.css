@@ -25,6 +25,11 @@
   @apply font-bold underline;
 }
 
+.markdown ol > li, .markdown ul > li  {
+  @apply ml-4;
+  list-style: auto;
+}
+
 .steps {
   @apply mt-3;
 }

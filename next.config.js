@@ -36,6 +36,36 @@ module.exports = {
         source: '/sukhna-lake/cleanup-251-chandigarh.html',
         destination: '/events/sukhna-lake-cleanup-251-chandigarh',
         permanent: false,
+      },
+      {
+        source: '/sanjay-vann/clean-up/237-punya-farewell-plogging-party.html',
+        destination: '/events/sanjay-vann-clean-up-237',
+        permanent: false,
+      },
+      {
+        source: '/sanjay-vann/clean-up/241.html',
+        destination: '/events/sanjay-vann-clean-up-241',
+        permanent: false,
+      },
+      {
+        source: '/sanjay-vann/clean-up/244.html',
+        destination: '/events/sanjay-vann-clean-up-244',
+        permanent: false,
+      },
+      {
+        source: '/sanjay-vann/clean-up/248.html',
+        destination: '/events/sanjay-vann-clean-up-248',
+        permanent: false,
+      },
+      {
+        source: '/sanjay-vann/clean-up/252-geetika-vinamra.html',
+        destination: '/events/sanjay-vann-clean-up-252',
+        permanent: false,
+      },
+      {
+        source: '/sanjay-vann/clean-up/256-getting-lost.html',
+        destination: '/events/sanjay-vann-clean-up-256',
+        permanent: false,
       }
     ];
   },
