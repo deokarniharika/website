@@ -76,6 +76,11 @@ module.exports = {
         source: '/central-park/clean-up/2-yellow-bags-and-takeaways.html',
         destination: '/events/central-park-clean-up-2',
         permanent: false,
+      },
+      {
+        source: '/ridge-reserve-forest/274-prakriti-delhi-college-of-arts-and-commerce/index.html',
+        destination: '/events/ridge-reserve-forest-clean-up-274',
+        permanent: false,
       }
     ];
   },
