@@ -17,6 +17,19 @@
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
 
+.markdown p.intro {
+  @apply text-xl text-left;
+}
+
+.markdown a {
+  @apply font-bold underline;
+}
+
+.markdown ol > li, .markdown ul > li  {
+  @apply ml-4;
+  list-style: auto;
+}
+
 .steps {
   @apply mt-3;
 }

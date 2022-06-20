@@ -2,7 +2,8 @@
 title: Elliot's Beach Cleanup
 excerpt: 5th June 2022 @ 6AM
 coverImage: /assets/events/elliot-beach-cleanup/Elliot_Beach_Cleanup.jpg
-date: 19-05-2022
+category: Climate Action
+date: 19-05-2020
 author: Niharika @ TINEB
 ---
 

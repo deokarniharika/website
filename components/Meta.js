@@ -32,11 +32,7 @@ export default function Meta() {
       <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content={`${ORG_NAME}`}
-      />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:image:type" content="image/jpeg" />
     </Head>
   );
 }

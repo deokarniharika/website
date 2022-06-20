@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { ORG_NAME } from "../../lib/constants";
 
 const loadingContainer = {
   width: "4rem",
@@ -47,7 +49,9 @@ const Loader = () => {
   return (
     <div className="fixed top-0 bottom-0 bg-accent-1 z-10">
       <div className="flex fixed w-full justify-center items-center h-screen z-10 bg-accent-1 flex-col">
-        <img src="/assets/TINEB.jpeg" width={150} height={150} className="mb-5" />
+        <Link href={'/'}>
+          <img src="/assets/TINEB.jpeg" alt={ORG_NAME} width={150} height={150} className="mb-5 cursor-pointer" />
+        </Link>
         <motion.div
           style={loadingContainer}
           variants={loadingContainerVariants}

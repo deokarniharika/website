@@ -27,7 +27,12 @@ export default function Event({ event, moreEvents, preview }) {
               <title>
                 {event.title} | {ORG_NAME}
               </title>
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="description" content={event.excerpt} />
+              <meta property="og:url" content={router.asPath} />
               <meta property="og:image" content={event.coverImage} />
+              <meta property="og:title" content={`${event.title} | ${ORG_NAME}`} />
+              <meta property="og:description" content={event.excerpt} />
             </Head>
             <article className="mb-32">
               <EventDetail
@@ -36,6 +41,7 @@ export default function Event({ event, moreEvents, preview }) {
                 author={event.author}
                 coverImage={event.coverImage}
                 date={event.date}
+                category={event.category}
                 content={event.content}
               />
             </article>
@@ -54,6 +60,7 @@ export async function getStaticProps({ params }) {
     'author',
     'excerpt',
     'coverImage',
+    'category',
     'content',
   ]);
 
@@ -63,7 +70,7 @@ export async function getStaticProps({ params }) {
     props: {
       event: {
         ...event,
-        content,
+        content
       },
     },
   };

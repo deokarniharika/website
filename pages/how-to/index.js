@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
 import HowTosList from '../../components/HowTo/HowTosList';
-// import HowTosListDetail from '../../components/HowTos/HowTosListDetail';
 import Container from '../../components/Container';
 import HowToHeader from '../../components/HowTo/HowToHeader';
 import Layout from '../../components/LayoutVariant';
 import { getAllHowTos } from '../../lib/api';
-import { ORG_NAME } from '../../lib/constants';
+import { HOME_OG_IMAGE_URL, ORG_NAME } from '../../lib/constants';
 import SectionHero from '../../components/SectionHero';
 
 export default function Index({ allHowTos }) {
@@ -18,6 +17,11 @@ export default function Index({ allHowTos }) {
       <Layout align='left'>
         <Head>
           <title>How to? Guides | {ORG_NAME}</title>
+          <meta
+            name="description"
+            content={`${ORG_NAME}`}
+          />
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
           <HowToHeader />

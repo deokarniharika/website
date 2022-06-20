@@ -5,7 +5,7 @@ import Container from '../../components/Container';
 import Layout from '../../components/Layout';
 import SectionHero from '../../components/SectionHero';
 import { getAllBlurbs } from '../../lib/api';
-import { ORG_NAME } from '../../lib/constants';
+import { HOME_OG_IMAGE_URL, ORG_NAME } from '../../lib/constants';
 
 export default function Index({ allBlurbs }) {
 
@@ -14,6 +14,11 @@ export default function Index({ allBlurbs }) {
       <Layout>
         <Head>
           <title>Blurbs | {ORG_NAME}</title>
+          <meta
+            name="description"
+            content={`${ORG_NAME}`}
+          />
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
           <div className='content-center pb-10 mb-5'>

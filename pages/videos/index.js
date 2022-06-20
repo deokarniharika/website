@@ -5,7 +5,7 @@ import VideosListDetail from '../../components/Videos/VideosListDetail';
 import Container from '../../components/Container';
 import Layout from '../../components/Layout';
 import { getAllVideos } from '../../lib/api';
-import { ORG_NAME } from '../../lib/constants';
+import { HOME_OG_IMAGE_URL, ORG_NAME } from '../../lib/constants';
 
 export default function Index({ allVideos }) {
   const latestVideos = allVideos.slice(0, 3);
@@ -16,6 +16,11 @@ export default function Index({ allVideos }) {
       <Layout>
         <Head>
           <title>Videos | {ORG_NAME}</title>
+          <meta
+            name="description"
+            content={`${ORG_NAME}`}
+          />
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
           <div className='content-center'>
