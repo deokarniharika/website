@@ -71,6 +71,11 @@ module.exports = {
         source: '/lucknow/cleanup-245.html',
         destination: '/events/lucknow-cleanup-245',
         permanent: false,
+      },
+      {
+        source: '/central-park/clean-up/2-yellow-bags-and-takeaways.html',
+        destination: '/events/central-park-clean-up-2',
+        permanent: false,
       }
     ];
   },
