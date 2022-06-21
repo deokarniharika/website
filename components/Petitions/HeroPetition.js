@@ -7,9 +7,9 @@ export default function HeroPetition({ title, coverImage, slug, content }) {
   return (
     <>
       <div className="my-2.5 mb-5 content-center">
-        <h2 className="py-4 shadow bg-accent-2 text-accent-1 text-xl font-bold uppercase text-center">
+        <h1 className="py-4 shadow bg-accent-2 text-accent-1 text-xl font-bold uppercase text-center">
           Sign the Petitions
-        </h2>
+        </h1>
         <div className="flex flex-col shadow items-center justify-center bg-white cursor-pointer" onClick={() => setShow(true)}>
           <div className="py-3 mt-2 mb-1 font-bold text-xl capitalize hover:underline cursor-pointer"> {title}</div>
           <div className="mx-9 mb-9">

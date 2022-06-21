@@ -4,8 +4,9 @@ import Container from '../components/Container.js';
 import Layout from '../components/Layout.js';
 import { HOME_OG_IMAGE_URL, ORG_NAME } from '../lib/constants.js';
 import Home from '../components/Home';
+import { getAboutContent } from '../lib/api.js';
 
-const Index = () => {
+const Index = (props) => {
   return (
     <>
       <Layout>
@@ -18,7 +19,7 @@ const Index = () => {
           <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
-          <Home />
+          <Home about={props.about} />
         </Container>
       </Layout>
     </>
@@ -26,3 +27,16 @@ const Index = () => {
 };
 
 export default Index;
+
+export async function getStaticProps() {
+  const about = getAboutContent([
+    'date',
+    'excerpt',
+  ]);
+
+  return {
+    props: {
+      about
+    },
+  };
+}

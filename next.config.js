@@ -152,16 +152,16 @@ module.exports = {
         destination: '/assets/cleanup-posters/:path*',
         permanent: false,
       },
-      {
-        source: '/about-us',
-        destination: '/about-us/index.html',
-        permanent: false,
-      },
-      {
-        source: '/about-us.html',
-        destination: '/about-us/index.html',
-        permanent: false,
-      },
+      // {
+      //   source: '/about-us',
+      //   destination: '/about-us/index.html',
+      //   permanent: false,
+      // },
+      // {
+      //   source: '/about-us.html',
+      //   destination: '/about-us/index.html',
+      //   permanent: false,
+      // },
       {
         source: '/apporpoise',
         destination: '/apporpoise/index.html',
