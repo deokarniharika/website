@@ -354,12 +354,12 @@ module.exports = {
       },
       {
         source: '/wallpapers',
-        destination: '/wallpapers/index.html',
+        destination: '/Wallpapers/index.html',
         permanent: false,
       },
       {
         source: '/wallpapers.html',
-        destination: '/wallpapers/index.html',
+        destination: '/Wallpapers/index.html',
         permanent: false,
       },
       {
