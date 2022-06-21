@@ -1,14 +1,14 @@
 ---
-title: 'Yamuna bank: Cleanup 234'
+title: 'Yamuna Bank: Cleanup 234'
 excerpt: 'Team There Is No Earth B removes 83.57 kg (13 bags) more of non-biodegradable waste from Yamuna Bank'
-coverImage: https://thereisnoearthb.org/yamuna-bank/images/234/SocialPreview.jpg
+coverImage: /assets/events/yamuna-bank/images/234/SocialPreview.jpg
 date: 15-08-2021
 category: Climate Action
-author: Ashok Kumar @ TINEB
+author: Ashok Kumar
 ---
 
-<p><blockquote class="wp-block-quote"><p>"The world has <b>enough</b> for everyone&rsquo;s <b>needs</b>, but <b>not</b> everyone&rsquo;s</b> <b>greed</b>"</strong></p></blockquote></p>
-<p><span class="dropcap">T</span><strong></strong></p><p>his is a statement that is becoming more relevant as time passes. In search of order, we have created chaos in the form of plastic. Leo Baekeland invented Bakelite, the first real synthetic, mass-produced plastic. Ignoring the environmental, social, legal, economic, and political aspects, we focussed on our greed and created different types of plastics (normally varying from 1-7 as mentioned in the back of every plastic product).</p>
+<p class="text-xl text-left">"The world has <b>enough</b> for everyone&rsquo;s <b>needs</b>, but <b>not</b> everyone&rsquo;s</b> <b>greed</b>"</strong></p>
+<p>This is a statement that is becoming more relevant as time passes. In search of order, we have created chaos in the form of plastic. Leo Baekeland invented Bakelite, the first real synthetic, mass-produced plastic. Ignoring the environmental, social, legal, economic, and political aspects, we focussed on our greed and created different types of plastics (normally varying from 1-7 as mentioned in the back of every plastic product).</p>
 <p>NIMBY (NOT IN MY BACKYARD) had become the governing principle of our lives and we littered plastic everywhere not even sparing our rivers. River Yamuna is one of the most polluted rivers and has been called a river that is about to die. The Yamuna requires urgent action for protection.</p>
 
 <p><a href="https://www.instagram.com/thereisnoearthb/">There Is No Earth B</a></strong> is a community that has been working tirelessly to reduce plastic pollution at the banks of Yamuna via the means of cleanup drives for quite some time. They have collected a total of 142.50 kg plastic and 170.83 kg of other non-biodegradable waste in the last 3 drives which I was part of. Time for gratitude is far bygone and action is required from all quarters. Everyone who can, should come and join the drive at least once.&nbsp;</p>

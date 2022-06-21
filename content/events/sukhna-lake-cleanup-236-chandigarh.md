@@ -1,10 +1,10 @@
 ---
 title: 'Sukhna Lake: Cleanup 236'
 excerpt: 'Cleanup #236 by Parminder, Munmun, Ankit, Inder, Vishrut, and Bhawna at Sukhna Lake, Chandigarh'
-coverImage: http://thereisnoearthb.org/sukhna-lake/images/cleanup236.jpg
+coverImage: /assets/events/sukhna-lake/images/cleanup236.jpg
 date: 25-04-2021
 category: Climate Action
-author: Vishrut @ TINEB
+author: Vishrut
 ---
 
 <p class="text-xl text-left">Whenever I am in Chandigarh, I always visit Sukhna Lake, be it early morning to watch the sunrise or in the evening to watch the sunset.</p><p>It gives me a very homely feeling watching the rising or setting sun and Himalayas in the backdrop. And just like me, it attracts a lot of people for various reasons, and some of them leave trash behind.</p>

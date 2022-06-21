@@ -33,6 +33,7 @@ export default function Meta() {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta property="og:image:type" content="image/jpeg" />
+      <meta property="twitter:site" content="@ThereIsNoEarthB" />
     </Head>
   );
 }

@@ -1,10 +1,10 @@
 ---
 title: 'Sukhna Lake: Cleanup 238'
 excerpt: 'At clean-up #238  Inder, Ankit, Gurpreet, Munmun, Bhawna and two others removed over 7.365 kg of non-biodegradable waste from Sukhna Lake'
-coverImage: http://thereisnoearthb.org/sukhna-lake/images/cleanup238.jpg
+coverImage: /assets/events/sukhna-lake/images/cleanup238.jpg
 date: 01-08-2021
 category: Climate Action
-author: Munmun @ TINEB
+author: Munmun
 ---
 
 <p class="text-xl text-left">How do you wish to remember your evening promenade along the placid waters of Sukhna Lake?</p>

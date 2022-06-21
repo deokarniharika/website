@@ -4,7 +4,7 @@ import Container from '../../components/Container';
 import Layout from '../../components/Layout';
 import { getEventBySlug, getAllEvents } from '../../lib/api';
 import Head from 'next/head';
-import { ORG_NAME } from '../../lib/constants';
+import { BASE_URL, ORG_NAME } from '../../lib/constants';
 import markdownToHtml from '../../lib/markdownToHtml';
 import Loader from '../../components/Loader';
 import EventDetail from '../../components/Event/EventDetail';
@@ -27,12 +27,15 @@ export default function Event({ event, moreEvents, preview }) {
               <title>
                 {event.title} | {ORG_NAME}
               </title>
-              <meta name="twitter:card" content="summary_large_image" />
               <meta name="description" content={event.excerpt} />
-              <meta property="og:url" content={router.asPath} />
-              <meta property="og:image" content={event.coverImage} />
+              <meta property="og:image" content={`${BASE_URL}${event.coverImage}`} />
               <meta property="og:title" content={`${event.title} | ${ORG_NAME}`} />
               <meta property="og:description" content={event.excerpt} />
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta property="twitter:title" content={`${event.title} | ${ORG_NAME}`} />
+              <meta property="twitter:description" content={event.excerpt} />
+              <meta property="twitter:image" content={`${BASE_URL}${event.coverImage}`} />
+              <meta property="twitter:image:alt" content={event.title} />
             </Head>
             <article className="mb-32">
               <EventDetail

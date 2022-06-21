@@ -1,10 +1,10 @@
 ---
 title: 'Punya’s Farewell Plogging Party'
 excerpt: 'At clean-up 237 Punya, Sheranya, Nandini, Harinder, Dhriti, Surabhi, Sania, Aniruddho, and Dhrstadyumn removed over 14.61 kg of non-biodegradable waste from Sanjay Vann'
-coverImage: http://thereisnoearthb.org/sanjay-vann/images/cleanup237.jpg
+coverImage: /assets/events/sanjay-vann/images/cleanup237.jpg
 date: 31-07-2021
 category: Climate Action
-author: Punya @ TINEB
+author: Punya
 ---
 
 <p class="text-xl text-left">Today was my last cleanup at Sanjay Vann with TINEB.</p>

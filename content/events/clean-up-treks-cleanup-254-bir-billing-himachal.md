@@ -1,10 +1,10 @@
 ---
 title: Bir-Billing, Himachal
 excerpt: 'At clean-up 254 Maverick, Rohan, Reyan, Mohit, Nikhil, Ishpreet, Vedansh and Riti removed 25 kg of non-biodegradable waste from Bir-Billing landing site Himachal. Of which Plastic: 15 kg and other non-biodegradable waste: 10 kg'
-coverImage: http://thereisnoearthb.org/clean-up-treks/images/254.jpg
+coverImage: /assets/events/clean-up-treks/images/254.jpg
 date: 04-08-2021
 category: Climate Action
-author: Riti @ TINEB
+author: Riti
 ---
 <p class="text-xl text-left">Little did I know, a seed of thought of doing a clean-up in Bir planted by <a href="https://www.instagram.com/thereisnoearthb/">@thereisnoearthb</a> would materialize into something so meaningful.</p>
 

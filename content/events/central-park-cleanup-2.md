@@ -1,10 +1,10 @@
 ---
 title: Yellow Bags and Takeaways
 excerpt: 'Cleanup 2 in Central Park by Dhrstadyumn, Vaibhav, Manas, Basil, Amit, Mayank, Manas, Shrikant, Amrendra, Muskan, Akanksha, Priya, Piyush, Kaveri, Shubhankar, Anurag, Ishan.'
-coverImage: http://thereisnoearthb.org/central-park/images/cleanup2.jpg
+coverImage: /assets/events/central-park/images/cleanup2.jpg
 date: 15-07-2021
 category: Climate Action
-author: Dhrstadyumn @ TINEB
+author: Dhrstadyumn
 ---
 
 <p class="text-xl text-left">At 1500h <a href="https://www.instagram.com/ManasDodhi/" tabindex="0">Manas Dodhi</a>&nbsp;was the first to reach Rajiv Chowk Gate number 6 the meeting point for the Cleanup at 1700h.</p>

@@ -4,7 +4,7 @@ excerpt: 5th June 2022 @ 6AM
 coverImage: /assets/events/elliot-beach-cleanup/Elliot_Beach_Cleanup.jpg
 category: Climate Action
 date: 19-05-2020
-author: Niharika @ TINEB
+author: Niharika
 ---
 
 This is a description of the event. :+1: to approve. :-1: to reject.

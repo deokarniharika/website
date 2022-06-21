@@ -4,7 +4,7 @@ import Container from '../../components/Container';
 import Layout from '../../components/Layout';
 import { getBlurbBySlug, getAllBlurbs } from '../../lib/api';
 import Head from 'next/head';
-import { ORG_NAME } from '../../lib/constants';
+import { BASE_URL, ORG_NAME } from '../../lib/constants';
 import markdownToHtml from '../../lib/markdownToHtml';
 import Loader from '../../components/Loader';
 import BlurbDetail from '../../components/Blurbs/BlurbDetail';
@@ -27,7 +27,15 @@ export default function Blurb({ blurb, moreBlurbs, preview }) {
               <title>
                 {blurb.title} | {ORG_NAME}
               </title>
-              <meta property="og:image" content={blurb.coverImage} />
+              <meta name="description" content={blurb.excerpt} />
+              <meta property="og:image" content={`${BASE_URL}${blurb.coverImage}`} />
+              <meta property="og:title" content={`${blurb.title} | ${ORG_NAME}`} />
+              <meta property="og:description" content={blurb.excerpt} />
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta property="twitter:title" content={`${blurb.title} | ${ORG_NAME}`} />
+              <meta property="twitter:description" content={blurb.excerpt} />
+              <meta property="twitter:image" content={`${BASE_URL}${blurb.coverImage}`} />
+              <meta property="twitter:image:alt" content={blurb.title} />
             </Head>
             <article className="mb-32">
               <BlurbDetail
