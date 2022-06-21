@@ -15,9 +15,9 @@ export default function Index({ allEvents }) {
         </Head>
         <Container>
           <div className='mx-9 content-center pb-10 mb-5'>
-            <h2 className="mt-5 mb-7 text-3xl text-accent-3 text-center font-bold">
+            <h1 className="mt-5 mb-7 text-3xl text-accent-3 text-center font-bold">
               Events
-            </h2>
+            </h1>
             {allEvents.length > 0 && <EventsList events={allEvents} />}
           </div>
         </Container>

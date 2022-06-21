@@ -3,7 +3,7 @@ import AnimatedNumber from "animated-number-react";
 import WasteCleanedChart from './WasteCleanedChart';
 import SolidarityCard from './SolidarityCard';
 import Socials from './Socials';
-import WhoWeAre from './WhoWeAre';
+import AboutBrief from '../About/AboutBrief';
 
 const LineData = [
   { x: 319, y: 44 },
@@ -21,7 +21,7 @@ const LineData = [
   { x: 307, y: 9 }
 ];
 
-export default function Home() {
+export default function Home(props) {
   const [counter1, setCounter1] = useState(0);
   const [counter2, setCounter2] = useState(0);
 
@@ -64,7 +64,7 @@ export default function Home() {
           <SolidarityCard />
         </div>
         <div className='mt-8 bg-accent-2 min-h-screen flex flex-col items-center justify-between'>
-          <WhoWeAre />
+          <AboutBrief about={props.about} />
         </div>
         <div className='mx-4 bg-accent-1 my-8' style={{ minHeight: '7em' }}>
           <div className='text-center text-3xl text-accent-2'>

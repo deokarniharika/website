@@ -24,9 +24,9 @@ export default function Index({ allVideos }) {
         </Head>
         <Container>
           <div className='content-center'>
-            <h2 className="mt-5 mb-6 text-3xl text-accent-3 text-center font-bold">
+            <h1 className="mt-5 mb-6 text-3xl text-accent-3 text-center font-bold">
               Videos
-            </h2>
+            </h1>
             {latestVideos.length > 0 && <VideosListDetail videos={latestVideos} />}
           </div>
           <div className="uppercase text-xl font-bold my-8 text-center py-4 bg-accent-2 text-accent-1">
