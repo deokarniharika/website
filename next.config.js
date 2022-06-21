@@ -39,32 +39,32 @@ module.exports = {
       },
       {
         source: '/sanjay-vann/clean-up/237-punya-farewell-plogging-party.html',
-        destination: '/events/sanjay-vann-clean-up-237',
+        destination: '/events/sanjay-vann-cleanup-237',
         permanent: false,
       },
       {
         source: '/sanjay-vann/clean-up/241.html',
-        destination: '/events/sanjay-vann-clean-up-241',
+        destination: '/events/sanjay-vann-cleanup-241',
         permanent: false,
       },
       {
         source: '/sanjay-vann/clean-up/244.html',
-        destination: '/events/sanjay-vann-clean-up-244',
+        destination: '/events/sanjay-vann-cleanup-244',
         permanent: false,
       },
       {
         source: '/sanjay-vann/clean-up/248.html',
-        destination: '/events/sanjay-vann-clean-up-248',
+        destination: '/events/sanjay-vann-cleanup-248',
         permanent: false,
       },
       {
         source: '/sanjay-vann/clean-up/252-geetika-vinamra.html',
-        destination: '/events/sanjay-vann-clean-up-252',
+        destination: '/events/sanjay-vann-cleanup-252',
         permanent: false,
       },
       {
         source: '/sanjay-vann/clean-up/256-getting-lost.html',
-        destination: '/events/sanjay-vann-clean-up-256',
+        destination: '/events/sanjay-vann-cleanup-256',
         permanent: false,
       },
       {
@@ -74,7 +74,7 @@ module.exports = {
       },
       {
         source: '/central-park/clean-up/2-yellow-bags-and-takeaways.html',
-        destination: '/events/central-park-clean-up-2',
+        destination: '/events/central-park-cleanup-2',
         permanent: false,
       },
       {

@@ -51,3 +51,17 @@
   @apply text-accent-3 font-bold underline;
 }
 
+.markdown blockquote, 
+.markdown p blockquote {
+  display: block;
+  @apply text-xl text-left;
+}
+
+.markdown pre {
+  overflow-x: scroll;
+  font-family: monospace;
+}
+
+.markdown * {
+  word-wrap: break-word;
+}
