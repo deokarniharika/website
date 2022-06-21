@@ -149,7 +149,7 @@ module.exports = {
       },
       {
         source: '/cleanup-posters/:path*',
-        destination: '/assets/events/cleanup-posters/:path*',
+        destination: '/assets/cleanup-posters/:path*',
         permanent: false,
       },
     ];
