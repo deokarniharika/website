@@ -1,15 +1,13 @@
 ---
 title: 'Yamuna Bank: Cleanup 235'
 excerpt: 'Contrary to what some people will have you believe Flying to Mars is not an option. At cleanup 235 There Is No Earth B removed 6.31kg of plastic and 8.78kg of other non-biodegradable waste from Yamuna Bank'
-coverImage: http://thereisnoearthb.org/yamuna-bank/images/cleanup235.png
+coverImage: /assets/events/yamuna-bank/images/cleanup235.png
 date: 24-07-2021
 category: Climate Action
-author: Tanisha Gulati @ TINEB
+author: Tanisha Gulati
 ---
 
-<p>“Most of the trash and waste doesn&rsquo;t disappear. A monster or a black hole doesn&rsquo;t eat it up! It ends up amidst the natural world, polluting and harming all aspects of life.</p>
-
-
+<p class="text-xl text-left">“Most of the trash and waste doesn&rsquo;t disappear. A monster or a black hole doesn&rsquo;t eat it up! It ends up amidst the natural world, polluting and harming all aspects of life.</p>
 
 <p>Most of the trash and waste doesn&rsquo;t disappear. A monster or a black hole doesn&rsquo;t eat it up! It ends up amidst the natural world, polluting and harming all aspects of life.</p>
 

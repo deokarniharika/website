@@ -1,10 +1,10 @@
 ---
 title: 'Sanjay Vann: Cleanup 248'
 excerpt: 'At clean-up 248 Nandini, Sunil, Rama, Sheranya, Tanvi , Akhil and Dhrstadyumn removed 11.77 kg of non-biodegradable waste from Sanjay Vann.'
-coverImage: http://thereisnoearthb.org/sanjay-vann/images/cleanup248.jpg
+coverImage: /assets/events/sanjay-vann/images/cleanup248.jpg
 date: 22-08-2021
 category: Climate Action
-author: Sunil @ TINEB
+author: Sunil
 ---
 
 <p class="text-xl text-left">“Hello,</p>

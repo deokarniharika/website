@@ -83,6 +83,16 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/ridge-reserve-forest/274-prakriti-delhi-college-of-arts-and-commerce',
+        destination: '/events/ridge-reserve-forest-clean-up-274',
+        permanent: false,
+      },
+      {
+        source: '/ridge-reserve-forest/274-prakriti-delhi-college-of-arts-and-commerce/',
+        destination: '/events/ridge-reserve-forest-clean-up-274',
+        permanent: false,
+      },
+      {
         source: '/clean-up-treks/249-madhyamaheshwar-trek-kabir.html',
         destination: '/events/clean-up-treks-cleanup-249-madhyamaheshwar-trek',
         permanent: false,
@@ -96,7 +106,47 @@ module.exports = {
         source: '/clean-up-treks/254-bir-billing-himachal-riti.html',
         destination: '/events/clean-up-treks-cleanup-254-bir-billing-himachal',
         permanent: false,
-      }
+      },
+      {
+        source: '/yamuna-bank/Cleanup-234-Ashok-Kumar-Climate-Action-17-07-2021.html',
+        destination: '/events/yamuna-bank-cleanup-234-delhi',
+        permanent: false,
+      },
+      {
+        source: '/yamuna-bank/cleanup-239-delhi.html',
+        destination: '/events/yamuna-bank-cleanup-239-delhi',
+        permanent: false,
+      },
+      {
+        source: '/yamuna-bank/flying-to-mars-is-not-an-option-cleanup-235.html',
+        destination: '/events/yamuna-bank-cleanup-235-delhi',
+        permanent: false,
+      },
+      {
+        source: '/yamuna-bank/cleanup-242-delhi.html',
+        destination: '/events/yamuna-bank-cleanup-242-delhi',
+        permanent: false,
+      },
+      {
+        source: '/yamuna-bank/cleanup-246-delhi.html',
+        destination: '/events/yamuna-bank-cleanup-246-delhi',
+        permanent: false,
+      },
+      {
+        source: '/yamuna-bank/cleanup-250-delhi.html',
+        destination: '/events/yamuna-bank-cleanup-250-delhi',
+        permanent: false,
+      },
+      {
+        source: '/yamuna-bank/cleanup-255-delhi.html',
+        destination: '/events/yamuna-bank-cleanup-255-delhi',
+        permanent: false,
+      },
+      {
+        source: '/yamuna-bank/images/Copy of Cleanup drive posters by Sania.png',
+        destination: '/assets/events/yamuna-bank/images/Copy of Cleanup drive posters by Sania.png',
+        permanent: false,
+      },
     ];
   },
 };

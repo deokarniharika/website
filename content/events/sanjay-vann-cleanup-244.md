@@ -1,10 +1,10 @@
 ---
 title: 'Sanjay Vann: Cleanup 244'
 excerpt: 'At clean-up 244 Dhruv, Advait, Nandini, Mithun, Tanvi, Rama, Sania, Sheranya, Faryadur, Shama and Dhrstadyumn removed 17.28 kg of non-biodegradable waste from Sanjay Vann'
-coverImage: http://thereisnoearthb.org/sanjay-vann/images/cleanup244.jpg
+coverImage: /assets/events/sanjay-vann/images/cleanup244.jpg
 date: 15-08-2021
 category: Climate Action
-author: Tanvi @ TINEB
+author: Tanvi
 ---
 
 <p class="text-xl text-left">“I cannot think of a better way to spend my Sunday morning than with the warm people @ <a href="https://www.instagram.com/thereisnoearthb/" tabindex="0">TINEB</a> cleaning up Sanjay Van.</p>

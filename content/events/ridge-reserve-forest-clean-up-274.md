@@ -1,7 +1,7 @@
 ---
 title: 'Ridge Reserve Forest: Cleanup 274'
 excerpt: 'At cleanup 274 students of DCAC removed 31 kg of plastic and 75.5 kg of other non-biodegradable waste from Central Ridge Reserve Forest. Participants included Sania, Prerna, Manas, Sonal, Riddhi, Radhika, Sahil, Oindrila, Utkarsh , Aashie, Gunjan, Nidhi, Shashank, Sanya, Samriddhi, Rupali, Pawan and ﻿Dhrstadyumn'
-coverImage: http://thereisnoearthb.org/ridge-reserve-forest/images/274-prakriti-delhi-college-of-arts-and-commerce.jpg
+coverImage: /assets/events/ridge-reserve-forest/images/274-prakriti-delhi-college-of-arts-and-commerce.jpg
 date: 27-11-2021
 category: Climate Action
 author: Shravya Shruti

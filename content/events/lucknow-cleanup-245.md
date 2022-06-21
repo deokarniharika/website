@@ -1,10 +1,10 @@
 ---
 title: 'Lucknow: Cleanup 245'
 excerpt: 'At clean-up 245 Ansh, Shreyanshi, Pravleen, Azma and Shravya collected four bags full of non-biodegradable waste in Lucknow.'
-coverImage: http://thereisnoearthb.org/lucknow/images/cleanup245.jpg
+coverImage: /assets/events/lucknow/images/cleanup245.jpg
 date: 15-08-2021
 category: Climate Action
-author: Azma @ TINEB
+author: Azma
 ---
 
 <p class="text-xl text-left">Minarets, mausoleums, and old bazaars adorn our little city of Lucknow.</p>

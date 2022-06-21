@@ -1,10 +1,10 @@
 ---
 title: 'Sanjay Vann: Cleanup 252'
 excerpt: 'At clean-up 252 Saman, Aarna, Arjun, Vinamra, Devashish, Subtoro, Sania, Mithun, Geetika, Akhil, Rama and Dhrstadyumn removed 28.11 kg of non-biodegradable waste from Sanjay Vann.'
-coverImage: http://thereisnoearthb.org/sanjay-vann/images/cleanup252.jpg
+coverImage: /assets/events/sanjay-vann/images/cleanup252.jpg
 date: 22-08-2021
 category: Climate Action
-author: Sunil @ TINEB
+author: Sunil
 ---
 
 <p class="text-xl text-left">“Hi, today was my first clean-up drive at Sanjay van.</p>

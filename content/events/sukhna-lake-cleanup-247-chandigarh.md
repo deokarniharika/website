@@ -1,10 +1,10 @@
 ---
 title: 'Sukhna Lake: Cleanup 247'
 excerpt: 'At clean-up 247 Munmun, Gurpreet, Ankit, Oorvi and Bhawna removed 16.68 kg of non-biodegradable waste from Sukhna Lake.'
-coverImage: http://thereisnoearthb.org/sukhna-lake/images/cleanup247.jpg
+coverImage: /assets/events/sukhna-lake/images/cleanup247.jpg
 date: 22-08-2021
 category: Climate Action
-author: Dr. Oorvi @ TINEB
+author: Dr. Oorvi
 ---
 
 <p class="text-xl text-left">“It was a long time I met my co-friends cleaning Sukhna Lake.</p><p>Clean-up is always fun, and it keeps me grounded. I feel near to mother nature and myself on the ground keeping aside all the egos and cleaning the surroundings as my own home!</p>
