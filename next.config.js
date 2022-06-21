@@ -147,6 +147,11 @@ module.exports = {
         destination: '/assets/events/yamuna-bank/images/Copy of Cleanup drive posters by Sania.png',
         permanent: false,
       },
+      {
+        source: '/cleanup-posters/:path*',
+        destination: '/assets/events/cleanup-posters/:path*',
+        permanent: false,
+      },
     ];
   },
 };
