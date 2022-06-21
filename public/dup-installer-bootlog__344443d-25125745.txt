@@ -1,0 +1,7 @@
+[Mar 25 13:13:55] 
+[Mar 25 13:13:55] [PHP ERR][WARN] MSG:filesize(): stat failed for httpabitofedewebnetdemo_344443d5d126f9504575_20200325125745_archive.zip [CODE:2|FILE:C:\xampp\htdocs\testsite\installer.php|LINE:119]
+[Mar 25 13:13:56] ==DUPLICATOR INSTALLER BOOTSTRAP v1.3.28==
+[Mar 25 13:13:56] ----------------------------------------------------
+[Mar 25 13:13:56] Installer bootstrap start
+[Mar 25 13:13:56] Using archive C:/xampp/htdocs/testsite/httpabitofedewebnetdemo_344443d5d126f9504575_20200325125745_archive.zip
+[Mar 25 13:13:56] [ERROR] Archive file not found!
