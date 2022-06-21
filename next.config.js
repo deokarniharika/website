@@ -153,18 +153,13 @@ module.exports = {
         permanent: false,
       },
       {
-        source: '/aarna',
-        destination: '/aarna/index.html',
-        permanent: false,
-      },
-      {
         source: '/about-us',
         destination: '/about-us/index.html',
         permanent: false,
       },
       {
-        source: '/anukriti_rashi',
-        destination: '/anukriti_rashi/index.html',
+        source: '/about-us.html',
+        destination: '/about-us/index.html',
         permanent: false,
       },
       {
@@ -173,8 +168,8 @@ module.exports = {
         permanent: false,
       },
       {
-        source: '/bhawna',
-        destination: '/bhawna/index.html',
+        source: '/apporpoise.html',
+        destination: '/apporpoise/index.html',
         permanent: false,
       },
       {
@@ -183,7 +178,47 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/blog.html',
+        destination: '/blog/index.html',
+        permanent: false,
+      },
+      {
+        source: '/aarna',
+        destination: '/aarna/index.html',
+        permanent: false,
+      },
+      {
+        source: '/aarna.html',
+        destination: '/aarna/index.html',
+        permanent: false,
+      },
+      {
+        source: '/anukriti_rashi',
+        destination: '/anukriti_rashi/index.html',
+        permanent: false,
+      },
+      {
+        source: '/anukriti_rashi.html',
+        destination: '/anukriti_rashi/index.html',
+        permanent: false,
+      },
+      {
+        source: '/bhawna',
+        destination: '/bhawna/index.html',
+        permanent: false,
+      },
+      {
+        source: '/bhawna.html',
+        destination: '/bhawna/index.html',
+        permanent: false,
+      },
+      {
         source: '/cherry',
+        destination: '/blog/index.html',
+        permanent: false,
+      },
+      {
+        source: '/cherry.html',
         destination: '/blog/index.html',
         permanent: false,
       },
@@ -193,7 +228,17 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/dhrstadyumn.html',
+        destination: '/dhrstadyumn/index.html',
+        permanent: false,
+      },
+      {
         source: '/faryadur',
+        destination: '/faryadur/index.html',
+        permanent: false,
+      },
+      {
+        source: '/faryadur.html',
         destination: '/faryadur/index.html',
         permanent: false,
       },
@@ -203,7 +248,17 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/harinder.html',
+        destination: '/harinder/index.html',
+        permanent: false,
+      },
+      {
         source: '/itsmesheranya',
+        destination: '/itsmesheranya/index.html',
+        permanent: false,
+      },
+      {
+        source: '/itsmesheranya.html',
         destination: '/itsmesheranya/index.html',
         permanent: false,
       },
@@ -213,17 +268,27 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/pratibha.sharmaaaa.html',
+        destination: '/pratibha.sharmaaaa/index.html',
+        permanent: false,
+      },
+      {
         source: '/punya',
         destination: '/punya/index.html',
         permanent: false,
       },
       {
-        source: '/safe-space',
-        destination: '/safe-space/index.html',
+        source: '/punya.html',
+        destination: '/punya/index.html',
         permanent: false,
       },
       {
         source: '/sania',
+        destination: '/sania/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sania.html',
         destination: '/sania/index.html',
         permanent: false,
       },
@@ -233,7 +298,17 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/shravya.html',
+        destination: '/shravya/index.html',
+        permanent: false,
+      },
+      {
         source: '/sonakshi',
+        destination: '/sonakshi/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sonakshi.html',
         destination: '/sonakshi/index.html',
         permanent: false,
       },
@@ -243,8 +318,8 @@ module.exports = {
         permanent: false,
       },
       {
-        source: '/sign-up',
-        destination: '/sign-up/index.html',
+        source: '/sidebar.html',
+        destination: '/sidebar/index.html',
         permanent: false,
       },
       {
@@ -253,7 +328,37 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/unicornsforclimateaction.html',
+        destination: '/unicornsforclimateaction/index.html',
+        permanent: false,
+      },
+      {
+        source: '/safe-space',
+        destination: '/safe-space/index.html',
+        permanent: false,
+      },
+      {
+        source: '/safe-space.html',
+        destination: '/safe-space/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sign-up',
+        destination: '/sign-up/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sign-up.html',
+        destination: '/sign-up/index.html',
+        permanent: false,
+      },
+      {
         source: '/wallpapers',
+        destination: '/wallpapers/index.html',
+        permanent: false,
+      },
+      {
+        source: '/wallpapers.html',
         destination: '/wallpapers/index.html',
         permanent: false,
       },
@@ -263,7 +368,17 @@ module.exports = {
         permanent: false,
       },
       {
+        source: '/waste-to-art.html',
+        destination: '/waste-to-art/index.html',
+        permanent: false,
+      },
+      {
         source: '/Yamuna',
+        destination: '/Yamuna/index.html',
+        permanent: false,
+      },
+      {
+        source: '/Yamuna.html',
         destination: '/Yamuna/index.html',
         permanent: false,
       },
