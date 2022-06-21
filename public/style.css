@@ -1,0 +1,114 @@
+/* Style Settings */
+/*@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');*/
+:root {
+    --bgColor: white;
+    --accentColor: white  /*#9bff00/*#30cf8c*/;
+    --accentColor2: black;
+    --accentColor3:#54E47A;
+    --font: "Times New Roman", Times, serif;
+}
+
+body{
+    background-color: var(--bgColor);
+
+}
+
+#userPhoto{
+    width:  96px;
+    height: 96px;/*96*/
+    margin: 5px auto 5px;
+    border-radius: 50%;
+    border: 3px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: var(--bgColor);
+}
+
+#userName{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#links{
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 5px auto;
+}
+
+.link{
+    display: block;
+    background-color: var(--accentColor);
+    color: black;
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border: solid var(--accentColor2) 2px;
+         
+}
+
+.link:hover{
+    background-color: var(--accentColor3);
+    color: var(black);
+}
+
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 1000%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.unstyled-button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.iconic {
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+   padding: 0 0em 0 0em ;
+
+}
+
+
+
+/*@media not screen and (min-width: 899px){
+  
+  .iconic {
+    margin: 0 -2em;
+  }
+}
+
+@media (min-width: 30em) and (orientation: landscape){
+  .iconic {
+      margin: 0 2em;
+    }
+  
+     
+  }
+*/
+/*https://stackoverflow.com/questions/11078509/how-to-increase-the-clickable-area-of-a-a-tag-button#:~:text=That%20said%2C%20if%20you%20really,a%20).&text=z%2Dindex%20can%20be%20used,of%20any%20text%20that%20follows./

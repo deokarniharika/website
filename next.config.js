@@ -152,6 +152,121 @@ module.exports = {
         destination: '/assets/cleanup-posters/:path*',
         permanent: false,
       },
+      {
+        source: '/aarna',
+        destination: '/aarna/index.html',
+        permanent: false,
+      },
+      {
+        source: '/about-us',
+        destination: '/about-us/index.html',
+        permanent: false,
+      },
+      {
+        source: '/anukriti_rashi',
+        destination: '/anukriti_rashi/index.html',
+        permanent: false,
+      },
+      {
+        source: '/apporpoise',
+        destination: '/apporpoise/index.html',
+        permanent: false,
+      },
+      {
+        source: '/bhawna',
+        destination: '/bhawna/index.html',
+        permanent: false,
+      },
+      {
+        source: '/blog',
+        destination: '/blog/index.html',
+        permanent: false,
+      },
+      {
+        source: '/cherry',
+        destination: '/blog/index.html',
+        permanent: false,
+      },
+      {
+        source: '/dhrstadyumn',
+        destination: '/dhrstadyumn/index.html',
+        permanent: false,
+      },
+      {
+        source: '/faryadur',
+        destination: '/faryadur/index.html',
+        permanent: false,
+      },
+      {
+        source: '/harinder',
+        destination: '/harinder/index.html',
+        permanent: false,
+      },
+      {
+        source: '/itsmesheranya',
+        destination: '/itsmesheranya/index.html',
+        permanent: false,
+      },
+      {
+        source: '/pratibha.sharmaaaa',
+        destination: '/pratibha.sharmaaaa/index.html',
+        permanent: false,
+      },
+      {
+        source: '/punya',
+        destination: '/punya/index.html',
+        permanent: false,
+      },
+      {
+        source: '/safe-space',
+        destination: '/safe-space/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sania',
+        destination: '/sania/index.html',
+        permanent: false,
+      },
+      {
+        source: '/shravya',
+        destination: '/shravya/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sonakshi',
+        destination: '/sonakshi/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sidebar',
+        destination: '/sidebar/index.html',
+        permanent: false,
+      },
+      {
+        source: '/sign-up',
+        destination: '/sign-up/index.html',
+        permanent: false,
+      },
+      {
+        source: '/unicornsforclimateaction',
+        destination: '/unicornsforclimateaction/index.html',
+        permanent: false,
+      },
+      {
+        source: '/wallpapers',
+        destination: '/wallpapers/index.html',
+        permanent: false,
+      },
+      {
+        source: '/waste-to-art',
+        destination: '/waste-to-art/index.html',
+        permanent: false,
+      },
+      {
+        source: '/Yamuna',
+        destination: '/Yamuna/index.html',
+        permanent: false,
+      },
     ];
   },
 };

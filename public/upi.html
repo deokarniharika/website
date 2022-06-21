@@ -1,0 +1,69 @@
+<html>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+    <p>If you don't use a UPI app you'll be redirected to our Buy Me a Coffee Page</p>
+    <script>
+
+          var sites = [
+
+'upi://pay?pa=givetomlp.thereisnoearthb1@icici&pn=supportthereisnoearthb&cu=INR','gpay://upi/pay?pa=givetomlp.thereisnoearthb1@icici&pn=supportthereisnoearthb&cu=INR'
+
+];
+
+                function gfg_Run() {
+                  var iOS =
+                    /iPad|iPhone|iPod/.test(navigator.userAgent) &&
+                    !window.MSStream;
+
+                    if (iOS) {
+                                      location.href = sites[1];;
+                                    } else {
+                                      location.href = sites[0];
+                                    }
+                }
+
+            
+
+            var timer = setTimeout(function() {
+                window.location='https://www.buymeacoffee.com/thereisnoearthb'
+            }, 3000);
+
+        
+    </script>
+    <body onload='gfg_Run()'>
+</body>
+</html>
+
+
+<!--<script>
+    var sites = [
+
+'upi://pay?pa=givetomlp.thereisnoearthb1@icici&pn=supportthereisnoearthb&tn=Contact us at:thereisnoearthb.org&cu=INR','gpay://upi/pay?pa=givetomlp.thereisnoearthb1@icici&pn=supportthereisnoearthb&tn=Contact us at:thereisnoearthb.org&cu=INR'
+
+];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+
+
+
+    		function gfg_Run() {
+    			var iOS =
+    				/iPad|iPhone|iPod/.test(navigator.userAgent) &&
+    				!window.MSStream;
+
+            if (iOS) {
+                              location.href = sites[1];;
+                            } else {
+                              location.href = sites[0];
+                            }
+    		}
+
+    }
+</script>
+<body onload='randomSite()'>-->
+  
+  <!--<meta http-equiv="Refresh" content="0; url='upi://pay?pa=givetomlp.thereisnoearthb1@icici&pn=supportthereisnoearthb&tn=Contact us at:thereisnoearthb.org&cu=INR'" />
+-->
+  
