@@ -34,3 +34,7 @@ yarn-error.log*
 .vercel
 
 .svn
+
+sitemap*.xml
+robots.txt
+!old.sitemap.xml
