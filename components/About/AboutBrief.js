@@ -1,13 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
+import { ORG_NAME } from "../../lib/constants";
 
 export default function AboutBrief({ about, preview }) {
   return (
     <>
-      <img className="" src="/assets/noearthb.jpeg" alt="" style={{
-        minHeight: '14em',
-        overflow: 'hidden',
-        objectFit: 'cover'
-      }} />
+      <div className="w-full h-[14em] lg:h-[25em] relative">
+        <Image
+          src="/assets/noearthb.jpeg"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="top center"
+          placeholder="blur"
+        />
+      </div>
       <div className='flex-1 flex flex-col items-center justify-center py-10 mt-4'>
         <div className='text-center text-3xl text-accent-1 capitalize font-bold'>
           Who We Are?

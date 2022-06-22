@@ -66,7 +66,7 @@ export default function Home(props) {
         <div className='mt-8 bg-accent-2 min-h-screen flex flex-col items-center justify-between'>
           <AboutBrief about={props.about} />
         </div>
-        <div className='mx-4 bg-accent-1 my-8' style={{ minHeight: '7em' }}>
+        <div className='mx-4 bg-accent-1 my-8 mb-1' style={{ minHeight: '7em' }}>
           <div className='text-center text-3xl text-accent-2'>
             <Socials />
           </div>

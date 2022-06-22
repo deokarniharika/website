@@ -1,10 +1,13 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function BlurbCard(blurb) {
   return (
     <div className="mx-auto w-full min-w-sm lg:w-3/4 bg-accent-2 rounded-lg shadow mt-8 mb-8">
       <a href={"/blurbs/" + blurb.slug}>
-        <img className="rounded-t-lg w-full" src={blurb.coverImage} alt="" />
+        <div className='rounded-t-lg  w-full h-[15em] relative'>
+          <Image objectFit='cover' layout='fill' objectPosition='center' src={blurb.coverImage} alt={blurb.title} placeholder="blur" />
+        </div>
       </a>
       <div className="p-5">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-accent-1 dark:text-white">{blurb.title}</h5>

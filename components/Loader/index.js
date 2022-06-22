@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ORG_NAME } from "../../lib/constants";
+import Image from "next/image";
 
 const loadingContainer = {
   width: "4rem",
