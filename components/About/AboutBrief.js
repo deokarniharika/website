@@ -8,10 +8,13 @@ export default function AboutBrief({ about, preview }) {
       <div className="w-full h-[14em] lg:h-[25em] relative">
         <Image
           src="/assets/noearthb.jpeg"
+          priority
           layout="fill"
           objectFit="cover"
           objectPosition="top center"
+          alt={"The " + ORG_NAME + " Team"}
           placeholder="blur"
+          blurDataURL={`/_next/image?url=${'/assets/noearthb.jpeg'}&w=16&q=1`}
         />
       </div>
       <div className='flex-1 flex flex-col items-center justify-center py-10 mt-4'>
