@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Component } from "react";
 import markdownToHtml from "../../lib/markdownToHtml";
 
@@ -35,7 +36,9 @@ export default class PetitionModal extends Component {
               <div className="px-6 space-y-6">
                 <div className="mx-2 my-0 text-justify text-sm leading-relaxed text-accent-2" dangerouslySetInnerHTML={{ __html: this.state.content }}>
                 </div>
-                <img src={this.props.petition.coverImage} alt={this.props.petition.title} className="rounded-3xl w-full shadow my-0" />
+                <div className="w-full my-0 relative h-[20em]">
+                  <Image layout="fill" objectFit="cover" objectPosition='center' src={this.props.petition.coverImage} alt={this.props.petition.title} className="rounded-3xl shadow" />
+                </div>
               </div>
               <div className="flex w-full items-center p-6 space-x-2 rounded-b">
                 <a href={this.props.petition.link} type="button" className="shadow w-full text-center text-accent-1 bg-accent-2 hover:bg-accent-1 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm font-medium px-5 py-2.5 hover:text-accent-2 focus:z-10 cursor-pointer">Sign the Petition</a>

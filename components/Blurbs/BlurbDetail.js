@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ORG_NAME } from '../../lib/constants';
@@ -37,8 +38,8 @@ export default function BlurbDetail({ title, coverImage, date, content }) {
         <div className="mb-7 px-2 mt-1 text-sm italic text-center lowercase">
           Posted on <FormattedDate dateString={date} />
         </div>
-        <div className="mb-8 sm:mx-0 w-full mx-auto">
-          <img src={coverImage} className="w-full mx-auto" />
+        <div className="mb-8 sm:mx-0 w-full mx-auto relative h-[20em] lg:h-[30em]">
+          <Image src={coverImage} alt={title} className="" layout='fill' objectFit='cover' objectPosition='cover' />
         </div>
         <div className="w-3/4 text-justify mx-auto mb-8">
           <div className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }}></div>
