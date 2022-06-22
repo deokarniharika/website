@@ -9,7 +9,7 @@ export default function SharingIcons({ title, path }) {
         <a
           onClick={async () => {
             await navigator.share({
-              url: path,
+              url: url,
               title: title + ' | ' + ORG_NAME
             });
           }}
