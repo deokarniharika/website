@@ -5,13 +5,12 @@ import { ORG_NAME } from "../../lib/constants";
 export default function AboutBrief({ about, preview }) {
   return (
     <>
-      <div className="w-full h-[14em] lg:h-[25em] relative">
+      <div className="w-full relative">
         <Image
           src="/assets/noearthb.jpeg"
           priority
-          layout="fill"
-          objectFit="cover"
-          objectPosition="top center"
+          height={9} width={16}
+          objectFit='cover' layout='responsive' objectPosition='center'
           alt={"The " + ORG_NAME + " Team"}
           placeholder="blur"
           blurDataURL={`/_next/image?url=${'/assets/noearthb.jpeg'}&w=16&q=1`}

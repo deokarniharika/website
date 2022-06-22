@@ -33,7 +33,7 @@ export default function BlurbDetail({ title, coverImage, author, category, date,
             </a>
           </div>
         </div>
-        <h1 className='text-2xl px-2 text-center mt-5 font-bold'>{title}</h1>
+        <h1 className='text-2xl px-5 text-center mt-5 font-bold'>{title}</h1>
         <div className="mb-2 px-2 mt-1 text-sm italic text-center lowercase">
           Posted on <FormattedDate dateString={date} /> {author && `by ${author}`}
           {/* {author && <><br /><strong>{author}</strong></>} */}
@@ -44,8 +44,9 @@ export default function BlurbDetail({ title, coverImage, author, category, date,
           </button>
         </div>
       </div>
-      <div className="mb-8 sm:mx-0 w-full mx-auto relative h-[20em] lg:h-[30em]">
-        <Image src={coverImage} alt={title} className="" layout='fill' objectFit='cover' objectPosition='cover' />
+      <div className="mb-8 sm:mx-0 w-full mx-auto relative">
+        <Image src={coverImage} alt={title} className="" height={9} width={16}
+          objectFit='cover' layout='responsive' objectPosition='center' />
       </div>
       <div className="w-3/4 text-justify mx-auto mb-8">
         <div className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }}></div>
