@@ -20,7 +20,7 @@ export default function Layout({ preview, children }) {
       <Meta />
       <TopBar />
       {loading && <Loader />}
-      <div className="min-h-screen">
+      <div className="min-h-screen lg:w-1/2 mx-auto">
         <main>{children}</main>
       </div>
       <BottomNavbar />

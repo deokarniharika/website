@@ -43,7 +43,7 @@ export default function BlurbDetail({ title, coverImage, author, category, date,
           </button>
         </div>
       </div>
-      <div className="mb-8 md:mb-16 sm:mx-0 w-full mx-auto">
+      <div className="mb-8 sm:mx-0 w-full mx-auto">
         <img src={coverImage} alt={title} className="w-full mx-auto" />
       </div>
       <div className="w-3/4 text-justify mx-auto mb-8">

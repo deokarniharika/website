@@ -7,7 +7,7 @@ export default class TopBar extends Component {
   render() {
     return (
       <>
-        <div className="h-12 text-accent-1 mt-3 mx-auto flex" style={{ width: '89vw', alignItems: 'center', justifyContent: this.props.align }}>
+        <div className="h-12 w-[89vw] lg:w-1/2 text-accent-1 mt-3 mx-auto lg:pl-[1%] flex" style={{ alignItems: 'center', justifyContent: this.props.align }}>
           <span className='cursor-pointer bg-accent-2 shadow w-10 h-10 flex' style={{ borderRadius: '100%', alignItems: 'center', justifyContent: 'center' }}>
             <Link href="/"><i className="bi bi-house-heart-fill text-2xl"></i></Link>
           </span>

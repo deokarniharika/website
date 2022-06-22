@@ -21,7 +21,7 @@ export default function Index({ allPetitions }) {
           <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
-          <div className='content-center'>
+          <div className='content-center mx-auto'>
             {heroPetition && (
               <HeroPetition
                 title={heroPetition.title}

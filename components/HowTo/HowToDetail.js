@@ -7,8 +7,8 @@ const HowToDetail = ({ slug, title, category, date, content }) => {
   const { asPath } = useRouter();
 
   return (
-    <div className="p-5 w-full flex flex-col">
-      <span className="absolute font-bold top-4 left-5 text-accent-3 text-md w-20">{category}</span>
+    <div className="py-5 w-3/4 lg:w-full mx-auto flex flex-col">
+      <span className="absolute font-bold top-4 left-5 lg:left-[25%] text-accent-3 text-md w-20">{category}</span>
       <h2 className="text-accent-3 font-bold text-3xl">{title}</h2>
       <div className={markdownStyles['markdown'] + ' ' + markdownStyles['steps']} dangerouslySetInnerHTML={{ __html: content }}></div>
       <div className='my-0'>
