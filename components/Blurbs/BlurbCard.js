@@ -5,9 +5,9 @@ export default function BlurbCard(blurb) {
   return (
     <div className="mx-auto w-full min-w-sm lg:w-3/4 bg-accent-2 rounded-lg shadow mt-8 mb-8">
       <Link href={"/blurbs/" + blurb.slug}>
-        <div className='rounded-t-lg w-full relative'>
+        <div className='w-full relative'>
           <Image height={9} width={16}
-            objectFit='cover' layout='responsive' objectPosition='center' src={blurb.coverImage} alt={blurb.title} placeholder="blur" blurDataURL={`/_next/image?url=${blurb.coverImage}&w=16&q=1`} />
+            objectFit='cover' layout='responsive' objectPosition='center' src={blurb.coverImage} alt={blurb.title} placeholder="blur" blurDataURL={`/_next/image?url=${blurb.coverImage}&w=16&q=1`} className='rounded-t-lg' />
         </div>
       </Link>
       <div className="p-5">
