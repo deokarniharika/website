@@ -21,7 +21,7 @@ export default class PetitionModal extends Component {
       <>
         <div className={(this.props.show ? "" : "hidden ") + "bg-accent-2 fixed top-0 left-0 min-h-screen w-full z-1 opacity-40"}>
         </div>
-        <div id={"modal-" + this.props.petition.slug} className={(this.props.show ? "" : "hidden ") + "overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full z-2"}>
+        <div id={"modal-" + this.props.petition.slug} className={(this.props.show ? "" : "hidden ") + "overflow-y-auto overflow-x-hidden absolute grid place-items-center top-0 left-0 content-start z-50 w-full md:inset-0 h-modal md:h-full"}>
           <div className="relative p-4 w-full max-w-2xl h-full md:h-auto">
             <div className="relative bg-accent-1 rounded-lg shadow">
               <div className="flex justify-between items-start p-4 rounded-t">

@@ -6,7 +6,7 @@ const VideoList = (props) => {
   return (
     <>
       {videos.map((video) => (
-        <div className="" key={video.slug}>
+        <div className="mx-auto" key={video.slug}>
           <VideoLink title={video.title} link={video.link} />
         </div>
       ))}

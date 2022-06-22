@@ -2,7 +2,7 @@ import PetitionLink from "./PetitionLink";
 
 export default function LatestPetitions({ petitions }) {
   return (
-    <section>
+    <section className="mx-auto mb-20 pb-10">
       <h2 className="mb-2.5 mt-6 text-xl text-accent-3 font-bold">
         Latest Petitions
       </h2>
