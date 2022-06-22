@@ -1,5 +1,11 @@
 /** @type {import('next-sitemap').IConfig} */
-const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'https://localhost:3000';
+const DOMAIN = 'https://tineb-website-revamp.vercel.app';
+
+const BASE_URL = process.env.VERCEL_ENV === 'production'
+  ? DOMAIN
+  : process.env.VERCEL_ENV === 'preview'
+    ? `https://${process.env.VERCEL_URL}`
+    : '';
 
 const config = {
   siteUrl: BASE_URL,
