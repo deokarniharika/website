@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
-const DOMAIN = 'https://tineb-website-revamp.vercel.app';
+const DOMAIN = 'https://thereisnoearthb.org';
 
 const BASE_URL = process.env.VERCEL_ENV === 'production'
   ? DOMAIN
