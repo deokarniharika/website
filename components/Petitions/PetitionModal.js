@@ -37,7 +37,7 @@ export default class PetitionModal extends Component {
                 <div className="mx-2 my-0 text-justify text-sm leading-relaxed text-accent-2" dangerouslySetInnerHTML={{ __html: this.state.content }}>
                 </div>
                 <div className="w-full my-0 relative h-[20em]">
-                  <Image layout="fill" objectFit="cover" objectPosition='center' src={this.props.petition.coverImage} alt={this.props.petition.title} className="rounded-3xl shadow" />
+                  <Image layout="fill" objectFit="cover" objectPosition='center' src={this.props.petition.coverImage} alt={this.props.petition.title} className="rounded-3xl shadow" placeholder="blur" blurDataURL={`/_next/image?url=${this.props.petition.coverImage}&w=16&q=1`} />
                 </div>
               </div>
               <div className="flex w-full items-center p-6 space-x-2 rounded-b">

@@ -20,6 +20,7 @@ export default function HeroPetition({ title, coverImage, slug, content }) {
               layout="fill"
               objectPosition="center"
               className="rounded-3xl"
+              placeholder="blur"
               src={coverImage}
               alt={title} />
           </div>
