@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { HOME_OG_IMAGE_URL, ORG_NAME } from '../lib/constants';
 
 export default function Meta() {
   return (
@@ -7,31 +6,30 @@ export default function Meta() {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/favicons/apple-touch-icon.png"
+        href="/assets/TINEB.jpeg"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicons/favicon-32x32.png"
+        href="/assets/TINEB.jpeg"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicons/favicon-16x16.png"
+        href="/assets/TINEB.jpeg"
       />
       <link rel="manifest" href="/favicons/site.webmanifest" />
       <link
         rel="mask-icon"
-        href="/favicons/safari-pinned-tab.svg"
-        color="#000000"
+        href="/assets/TINEB.jpeg"
+        color="#2e4a79"
       />
-      <link rel="shortcut icon" href="/favicons/favicon.ico" />
-      <meta name="msapplication-TileColor" content="#000000" />
+      <link rel="shortcut icon" href="https://thereisnoearthb.org/assets/TINEB.jpeg" />
+      <meta name="msapplication-TileColor" content="#2e4a79" />
       <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
-      <meta name="theme-color" content="#000" />
-      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+      <meta name="theme-color" content="#2e4a79" />
       <meta property="og:image:type" content="image/jpeg" />
       <meta property="twitter:site" content="@ThereIsNoEarthB" />
     </Head>
